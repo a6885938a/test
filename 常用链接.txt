@@ -1,4 +1,5 @@
-/*flash*/บวบว
+/*flash*/111
+15:40
 on (release)
 {
    getURL("http://www.rmthsc.com/index.php/product-7126.html", "_blank");
