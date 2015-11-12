@@ -1,6 +1,7 @@
 /*flash*/111
 15:40
 15:57
+16:05
 on (release)
 {
    getURL("http://www.rmthsc.com/index.php/product-7126.html", "_blank");
