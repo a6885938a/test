@@ -1,0 +1,343 @@
+/* CSS Document */
+.navbar a{ color:#fff;}
+.navbar-blue {background: rgba(22,133,208,1); display:block;}
+ .navbar-default {
+background: rgba(22,133,208,0);filter: Alpha(Opacity=100);opacity:0
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #fff;
+
+}
+navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #fff;
+font-weight:bold;
+background: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+text-shadow:2px 2px 8px #333;
+color: #fff;
+ font-size:14px;font-weight:bold; font: "microsoft yahei";
+
+}
+.navbar-default .navbar-nav>li>a:hover{ color:#e5e5e5}
+.navbar-default .navbar-nav>li.active>a{  background:none;}
+ a.navbar-brand{ padding:0 20px}
+ .lawer{ position:absolute; }
+
+/* ÷∑Á«Ÿ*/
+  body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
+        margin: 0px;
+        padding: 0px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .import-sub-title .hd .guan {
+        float: left;
+        font: 400 18px/50px "microsoft yahei";
+        color: #333;
+    }
+    .import-sub-title .hd .guan span {
+        margin-left: 4px;
+        font: 400 14px/50px TAHOMA;
+        color: #999;
+    }
+    .import-sub-title{
+        margin: 12px auto 0;
+        width: 1190px;
+    }
+    .import-sub-title .hd {
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 3px solid #536BB2;
+    }
+    .import-sub-title .hd a.more {
+        float: right;
+        font: 400 12px/50px "microsoft yahei";
+        color: #415183;
+        vertical-align: middle;
+    }
+    .import-sub-title .hd a.more i {
+        display: inline-block;
+        margin-left: 4px;
+        width: 19px;
+        height: 19px;
+        background: transparent url("../images/icobg.png") no-repeat scroll 0px -120px;
+        vertical-align: middle;
+    }
+	.import-collection a{ text-decoration:none;}
+    .import-collection {
+        width: 1190px;
+        margin: auto;
+    }
+    .import-collection div.bd {
+        position: relative;
+        width: 1190px;
+        height: 430px;
+        overflow: hidden;
+    }
+    .import-collection div.bd li {
+    position:relative;
+	float:left;
+        width: 237px;
+		display:block;
+		overflow:hidden; 
+    }
+	.import-collection div.bd li.current{  width:715px;}
+    .import-collection div.bd li.t a.left {
+        position: relative;
+        float: left;
+        width: 237px;
+        height: 430px;
+    }
+    a {
+        text-decoration: none;
+    }
+  
+    .import-collection div.bd li.t a.left div.map {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 110px;
+        z-index: 29;
+        background-color: #4E65A9;
+    }
+    .import-collection img.background {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+    img {
+    }
+    fieldset, img {
+        border: medium none;
+    }
+    .import-collection img.background {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+    .import-collection div.bd li.t div.right {
+		position:absolute;
+		left:237px;
+        float: left;
+        border-top: 1px solid #E9E9E9;
+        border-bottom: 1px solid #E9E9E9;
+        padding: 64px 39px 0px;
+        width: 400px;
+        height: 364px;
+        background-color: #F4F4F4;
+    }
+    .import-collection div.bd li.t div.right div.top div.icon {
+        float: left;
+        padding-top: 32px;
+        width: 100px;
+        height: 74px;
+        background: transparent url("../images/icobg.png") no-repeat scroll 0px 0px;
+    }
+    .import-collection div.bd li.t div.right div.top div.icon p.ch {
+        height: 22px;
+        font: 400 18px/22px "Microsoft Yahei";
+        color: #FB5016;
+    }
+    .import-collection div.bd li.t div.right div.top div.icon p {
+        width: 100%;
+        text-align: center;
+    }
+    .import-collection div.bd li.t div.right div.top div.icon p.en {
+        height: 16px;
+        font: 400 12px/16px Tahoma;
+        color: #333;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph {
+        float: left;
+        margin-left: 17px;
+        width: 280px;
+        font: 400 12px/24px "Microsoft Yahei";
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph p.text {
+        margin-bottom: 14px;
+        color: #333;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph {
+        font: 400 12px/24px "Microsoft Yahei";
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph div.keys p {
+        float: left;
+        margin-right: 5px;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph div.keys ul {
+        float: left;
+    }
+    ul, ol {
+        list-style: outside none none;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph div.keys ul li:first-child {
+        margin-left: 0px;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph div.keys ul li {
+        float: left;
+        margin-left: -8px;
+        padding-left: 10px;
+		width:auto;
+		overflow:hidden;
+        background: transparent url("../images/icobg.png") no-repeat scroll 0px -179px;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph div.keys ul li a span {
+		height: 20px;
+        text-align: center;
+        font: 400 12px/22px "Microsoft Yahei";
+        background: #FB5016;
+	display:inline-block;
+    }
+    .import-collection div.bd li.t div.right ul.bottom {
+        float: left;
+        margin-top: 50px;
+        margin-right: -20px;
+    }
+    .import-collection div.bd li.t div.right div.top div.paragraph div.keys ul li a {
+        padding-right: 10px;
+        color: #FFF;
+        display: block;
+        background-color: #000;
+        background: url("../images/icobg.png") no-repeat scroll right -149px;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li {
+        float: left;
+        margin-right: 20px;
+        width: 170px;
+    }
+	.import-collection div.bd li.t div.right ul.bottom li a{ text-decoration:none;}
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box {
+        position: relative;
+        width: 100%;
+        height: 170px;
+        overflow: hidden;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box:hover div.pic-hover {
+        top: 0
+    }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box div.pic-hover {
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        padding: 18px 12px;
+        width: 96px;
+        height: 134px;
+        opacity: 0.95;
+        background-color: #FFF;
+        transition: top 0.3s ease 0s;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box div.pic-hover p.title {
+        font: 400 12px/14px "Microsoft Yahei";
+        text-align: left;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box div.pic-hover p.price {
+    text-align:center; 
+    }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box div.pic-hover p.icon {
+        margin: 10px 0px 0px 30px;
+        width: 40px;
+        height: 40px;
+        background: transparent url("../images/ctbg.png") no-repeat scroll 0px -50px;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li p {
+        font: 400 12px/32px "Microsoft Yahei";
+        height: 32px;
+        color: #666;
+        text-align: center;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box div.pic-hover p.price span.fd-cny {
+         margin-right: 2px;
+         font-family: "Microsoft Yahei",sans-serif;
+     }
+    .import-collection div.bd li.t div.right ul.bottom li div.pic-box div.pic-hover p.price span {
+        font: 400 18px/38px Tahoma;
+        color: #FB5016;
+    }
+    .import-collection div.bd li.t div.right ul.bottom li {
+        float: left;
+        margin-right: 20px;
+        width: 120px;
+    }
+	  .import-collection div.bd li.t .triangle {
+        position: absolute;
+        z-index: 19;
+        left: 0px;
+        bottom: -50px;
+        width: 100%;
+        height: 216px;
+        transform: skewY(23.5deg);
+		-moz-transform: skewY(23.5deg);
+        -webkit-transform: skewY(23.5deg);
+		-o-transform: skewY(23.5deg);
+		animation:mysecond 0.3s ease;
+		-moz-animation:mysecond 0.3s ease;
+     	-webkit-animation:mysecond 0.3s ease;
+		-o-animation:mysecond 0.3s ease;
+        background-color: #4E65A9;
+        overflow: hidden;
+    }
+	  .import-collection div.bd li.t:hover .triangle {
+        position: absolute;
+        z-index: 19;
+        left: 0px;
+        bottom: -50px;
+        width: 100%;
+        height: 216px;
+		animation:myfirst 0.3s ease;
+		-moz-animation:myfirst 0.3s ease;
+		-webkit-animation:myfirst 0.3s ease;
+		-o-animation:myfirst 0.3s ease;
+        overflow: hidden;
+    }
+	
+	.import-collection div.bd li.t.current .triangle {
+	    position: absolute;
+        z-index: 19;
+        left: 0px;
+        bottom: -50px;
+        width: 100%;
+        height: 216px;
+  animation:myfirst 0.3s ease;
+		-webkit-animation:myfirst 0.3s ease;
+		-moz-animation:myfirst 0.3s ease;
+        overflow: hidden;
+	transform: skewY(-23.5deg);
+	-moz-transform:skewY(-23.5deg);
+	-webkit-transform:skewY(-23.5deg);
+	-o-transform:skewY(-23.5deg);
+	background-color: #fb5016!important
+}
+.import-collection div.bd li.t.current .map {
+	background-color: #fb5016!important
+}
+@keyframes myfirst{ from{transform:skewY(23.5deg);}
+to{-webkit-transform:skewY(-23.5deg);}
+}
+@-moz-keyframes myfirst{ from{-moz-transform:skewY(23.5deg);}
+to{-webkit-transform:skewY(-23.5deg);}
+}
+@-webkit-keyframes myfirst{ from{-webkit-transform:skewY(23.5deg);}
+to{-webkit-transform:skewY(-23.5deg);}
+}
+@-o-keyframes myfirst{ from{-o-transform:skewY(23.5deg);}
+to{-webkit-transform:skewY(-23.5deg);}
+}
+@keyframes mysecond{ from{transform:skewY(-23.5deg);}
+to{-webkit-transform:skewY(23.5deg);}
+}
+@-moz-keyframes mysecond{ from{-moz-transform:skewY(-23.5deg);}
+to{-webkit-transform:skewY(23.5deg);}
+}
+@-webkit-keyframes mysecond{ from{-webkit-transform:skewY(-23.5deg);}
+to{-webkit-transform:skewY(23.5deg);}
+}
+@-o-keyframes mysecond{ from{-o-transform:skewY(-23.5deg);}
+to{-webkit-transform:skewY(23.5deg);}
+}
