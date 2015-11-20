@@ -15,20 +15,21 @@
    <script src="js/globaljs.js"></script>
  <script type="text/javascript"> 
 $(document).ready(function(){ 
-$(".navbar-default").click(function(){
-  $(".navbar-default").hide();
-});
-$(window).scroll(function(){ 
 
-	$(".navbar-default").animate({opacity:'1'});
-});
-});
+$(document).on("scroll",function(){
+    if($(document).scrollTop()>70){
+        $(".navbar").removeClass("large").addClass("navbar-blue");
+    } else{
+        $(".navbar").removeClass("navbar-blue").addClass("large");
+    }
+});});
 </script>
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-blue  navbar-fixed-top " style=" border:none" role="navigation">
-<div class="" >
+<nav class="navbar navbar-default  navbar-fixed-top " style=" border:none;" role="navigation">
+<div class=" navbar-blue "></div>
+<div class=""   >
   <div class="navbar-header "  >
   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
 	<span class="sr-only">Toggle navigation</span>
