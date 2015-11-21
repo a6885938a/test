@@ -1,4 +1,17 @@
 /* CSS Document */
+
+/*  
+ jq(".rowwrap").addClass("show");
+        } else {
+            jq(".rowwrap").removeClass("show");
+        }
+*/
+
+/*
+.rowwrap{height:48px; line-height:48px; width:100%; opacity:0;  background-color:#2a2a2a;position:fixed;top:0px; z-index:2000;transition: opacity 0.3s ease-out 0s;-moz-box-shadow:0px -2px 14px #fff ;-webkit-box-shadow:0px -4px 14px #fff ;box-shadow:0px -4px 14px #fff ; }
+.rowwrap.show {top: 0px; opacity:1; }
+*/		
+		
 .navbar a{ color:#fff;}
 
  .navbar-default,.large {
