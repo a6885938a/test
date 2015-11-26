@@ -20,4 +20,22 @@
 	#bg {
 		background-size: 1200px auto;
 		width: 3600px;
+	}#header h1 {
+		font-size: 2.5em;
 	}
+
+	#header p {
+		font-size: 1em;
+	}
+
+	#header nav {
+		font-size: 1em;
+	}
+
+		#header nav a:hover {
+			font-size: 1em;
+		}
+
+		#header nav a:active {
+			font-size: 1em;
+		}

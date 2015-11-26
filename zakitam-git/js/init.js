@@ -5,8 +5,10 @@
 */
 
 // Skel.
+
+
 	skel.init({
-		reset: 'full',
+	
 		breakpoints: {
 			'global': { range: '*', href: 'css/style.css', lockViewport: true, viewport: 'minimal-ui' },
 			'wide': { range: '-1680', href: 'css/style-wide.css' },
@@ -15,3 +17,4 @@
 
 		}
 	});
+

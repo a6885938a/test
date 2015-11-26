@@ -28,7 +28,7 @@ $(document).on("scroll",function(){
 </head>
 <body>
 
-<nav class="navbar navbar-default  navbar-fixed-top " style=" border:none;" role="navigation">
+<nav class="navbar navbar-default  navbar-fixed-top " style=" border:none; z-index:100;" role="navigation">
 <div class=" navbar-blue  "></div>
 <div class=""   >
   <div class="navbar-header " style=" vertical-align:middle;"  >
@@ -38,7 +38,7 @@ $(document).on("scroll",function(){
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
 	</button>
-    <a class="navbar-brand" href="#"><img src="images/logo_w.png" height="38" style=" padding-top:5px" /></a>	</div>
+    <a class="navbar-brand" style="line-height:45px;" href="#"><img src="images/logo_w.png" height="38" style=" vertical-align:middle" /></a>	</div>
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li class="active"> <a href="#">首页</a> </li>
@@ -76,34 +76,11 @@ $(document).on("scroll",function(){
     </div>
   </div>
 </div>
-<div class="container" style="margin-top:30px; position:relative; z-index:99">
-            <div class="row" id="scene" style="height:362px;">
-                <div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center" style="">
-                    <div class="qr-codes hidden-sm hidden-xs"   style="position:relative; max-width:500px;">
-                        <div class="note layer"   data-depth="0.20" >
-                          <img src=" images/body.png" />
-                        </div><!--//note-->
-                        <div class="container" style="position:absolute; top:200px; margin:0 auto; left:50px; max-width:500px;"> 
-                        <div class="item col-md-6 col-sm-6 layer"   data-depth="0.80"  style=" margin:0 auto;">
-                                <img src="images/w_img.jpg" alt="" />
-                                <p>微信名片</p>
-                            </div><!--//item-->
-                       <div class="item col-md-6 col-sm-6 layer"   data-depth="0.80"  style=" margin:0 auto;">
-                                <img src="images/t_img.png" alt="" />
-                                <p>zaiktam淘宝店</p>
-                            </div><!--//item-->
-                        </div>                    
-                    </div><!--//qr-codes-->
-                </div><!--//content-->
-                <div id="video-container" class="video-container col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6 ">
- <div class=""  style="width:100%;height:100%;">
- <iframe height="100%" width="100%"  src="http://player.youku.com/embed/XNjQxNzI3NTk2" frameborder=0 ></iframe>
-        </div>
-                </div><!--//video-->
-            </div><!--//row-->
-        </div> 
+
+
+ 
 		        <!--标题结束-->
-            <div class="layout import-collection visible-md visible-lg">
+            <div class="layout import-collection visible-md visible-lg" style=" margin-top:20px;">
             <div class="tit-name">套餐精选</div>
                 <div class="bd fd-clr" id="accordion">
                     <ul class="fd-clr">
@@ -204,15 +181,20 @@ $(document).on("scroll",function(){
                             <div class="right">
                                 <div class="top fd-clr">
                                     <div class="icon">
-                                        <div class="ch">澳大利亚</div>
-                                        <div class="en">AUSTRALIA</div>
+                                        <div class="ch">运动套装</div>
+                                        <div class="en">Sport</div>
                                     </div>
                                     <div class="paragraph">
-                                        <div class="text">澳大利亚葡萄酒的生命不仅来自阳光、土壤和葡萄的精华，更来自悠久的品酒历史,这些都使得澳洲葡萄酒充满个性与活力,别具特色.</div>
+                                        <div class="text">集Gopro产品优点于一身，是我们推出的最小、最轻、最
+方便的摄像机，采用坚固耐用的防水设计，轻松一件操控，可拍摄1080P60视频和800万像素照片.</div>
                                         <div class="keys">
-                                            <p>主要产品 </p>
+                                            <p>套餐标配 </p>
                                             <ul>
-                                                <li><a target="_blank" href="#"><span>葡萄酒</span></a></li>
+                                                <li><a target="_blank" href="#"><span>HER04</span></a></li>
+                                                <li><a target="_blank" href="#"><span>HER04</span></a></li>
+
+                                                <li><a target="_blank" href="#"><span>HER04</span></a></li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -222,7 +204,7 @@ $(document).on("scroll",function(){
                                         <a href="http://www.rmthsc.com/index.php/product-8834.html" target="_blank">
                                             <div class="pic-box">
                                                 <div class="pic">
-                                                    <img width="120" height="170" src="http://www.rmthsc.com/special/global/images/rw-2.jpg" alt="巴罗莎干红"/>
+                                                    <img width="120" height="170" src="images/p1.jpg" alt=""/>
                                                 </div>
                                                 <div class="pic-hover">
                                                     <p class="title"></p>
@@ -230,14 +212,14 @@ $(document).on("scroll",function(){
                                                     <p class="icon"></p>
                                                 </div>
                                             </div>
-                                            <p>巴罗莎干红</p>
+                                            <p>HER04 Session</p>
                                         </a>
                                     </li>
                                 <li >
                                         <a href="http://www.rmthsc.com/index.php/product-8835.html" target="_blank">
                                             <div class="pic-box">
                                                 <div class="pic">
-                                                    <img width="120" height="170" src="http://www.rmthsc.com/special/global/images/rw-1.jpg" alt="帕德威赤霞珠"/>
+                                                    <img width="120" height="170" src="images/p2.jpg" alt=""/>
                                                 </div>
                                                 <div class="pic-hover ">
                                                     <p class="title"></p>
@@ -245,22 +227,22 @@ $(document).on("scroll",function(){
                                                     <p class="icon"></p>
                                                 </div>
                                             </div>
-                                            <p>帕德威赤霞珠</p>
+                                            <p>三星64G C10卡</p>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.rmthsc.com/index.php/product-8833.html" target="_blank">
+                                    <li >
+                                        <a href="http://www.rmthsc.com/index.php/product-8835.html" target="_blank">
                                             <div class="pic-box">
                                                 <div class="pic">
-                                                    <img width="120" height="170" src="http://www.rmthsc.com/special/global/images/rw-3.jpg" alt=""/>
+                                                    <img width="120" height="170" src="images/p3.jpg" alt=""/>
                                                 </div>
-                                                <div class="pic-hover">
+                                                <div class="pic-hover ">
                                                     <p class="title"></p>
-                                                    <p class="price"><span class="fd-cny">&yen;</span><span>398</span></p>
+                                                    <p class="price"><span class="fd-cny">&yen;</span><span>198</span></p>
                                                     <p class="icon"></p>
                                                 </div>
                                             </div>
-                                            <p>拿仑老藤干红</p>
+                                            <p>三星64G C10卡</p>
                                         </a>
                                     </li>
 
@@ -284,15 +266,20 @@ $(document).on("scroll",function(){
                             <div class="right">
                                 <div class="top fd-clr">
                                     <div class="icon">
-                                        <div class="ch">澳大利亚</div>
-                                        <div class="en">AUSTRALIA</div>
+                                        <div class="ch">运动套装</div>
+                                        <div class="en">Sport</div>
                                     </div>
                                     <div class="paragraph">
-                                        <div class="text">澳大利亚葡萄酒的生命不仅来自阳光、土壤和葡萄的精华，更来自悠久的品酒历史,这些都使得澳洲葡萄酒充满个性与活力,别具特色.</div>
+                                        <div class="text">集Gopro产品优点于一身，是我们推出的最小、最轻、最
+方便的摄像机，采用坚固耐用的防水设计，轻松一件操控，可拍摄1080P60视频和800万像素照片.</div>
                                         <div class="keys">
-                                            <p>主要产品 </p>
+                                            <p>套餐标配 </p>
                                             <ul>
-                                                <li><a target="_blank" href="#"><span>葡萄酒</span></a></li>
+                                                <li><a target="_blank" href="#"><span>HER04</span></a></li>
+                                                <li><a target="_blank" href="#"><span>HER04</span></a></li>
+
+                                                <li><a target="_blank" href="#"><span>HER04</span></a></li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -302,7 +289,7 @@ $(document).on("scroll",function(){
                                         <a href="http://www.rmthsc.com/index.php/product-8834.html" target="_blank">
                                             <div class="pic-box">
                                                 <div class="pic">
-                                                    <img width="120" height="170" src="http://www.rmthsc.com/special/global/images/rw-2.jpg" alt="巴罗莎干红"/>
+                                                    <img width="120" height="170" src="images/p1.jpg" alt=""/>
                                                 </div>
                                                 <div class="pic-hover">
                                                     <p class="title"></p>
@@ -310,14 +297,14 @@ $(document).on("scroll",function(){
                                                     <p class="icon"></p>
                                                 </div>
                                             </div>
-                                            <p>巴罗莎干红</p>
+                                            <p>HER04 Session</p>
                                         </a>
                                     </li>
                                 <li >
                                         <a href="http://www.rmthsc.com/index.php/product-8835.html" target="_blank">
                                             <div class="pic-box">
                                                 <div class="pic">
-                                                    <img width="120" height="170" src="http://www.rmthsc.com/special/global/images/rw-1.jpg" alt="帕德威赤霞珠"/>
+                                                    <img width="120" height="170" src="images/p2.jpg" alt=""/>
                                                 </div>
                                                 <div class="pic-hover ">
                                                     <p class="title"></p>
@@ -325,22 +312,22 @@ $(document).on("scroll",function(){
                                                     <p class="icon"></p>
                                                 </div>
                                             </div>
-                                            <p>帕德威赤霞珠</p>
+                                            <p>三星64G C10卡</p>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="http://www.rmthsc.com/index.php/product-8833.html" target="_blank">
+                                    <li >
+                                        <a href="http://www.rmthsc.com/index.php/product-8835.html" target="_blank">
                                             <div class="pic-box">
                                                 <div class="pic">
-                                                    <img width="120" height="170" src="http://www.rmthsc.com/special/global/images/rw-3.jpg" alt=""/>
+                                                    <img width="120" height="170" src="images/p3.jpg" alt=""/>
                                                 </div>
-                                                <div class="pic-hover">
+                                                <div class="pic-hover ">
                                                     <p class="title"></p>
-                                                    <p class="price"><span class="fd-cny">&yen;</span><span>398</span></p>
+                                                    <p class="price"><span class="fd-cny">&yen;</span><span>198</span></p>
                                                     <p class="icon"></p>
                                                 </div>
                                             </div>
-                                            <p>拿仑老藤干红</p>
+                                            <p>三星64G C10卡</p>
                                         </a>
                                     </li>
 
@@ -355,8 +342,8 @@ $(document).on("scroll",function(){
                     </ul>
                 </div>
             </div>
-            <div class="  container" style="margin-top:30px; ">
-            <div class="">
+            <div  class="product">
+            <div class="container " style="margin-top:20px; ">
                      <div class="tit-name">产品分类</div>
                          <div class="col-md-12 column">
                          <div class="col-xs-6 col-sm-4 col-md-3 col-md-2 column">
@@ -378,13 +365,64 @@ $(document).on("scroll",function(){
                      <div class="col-xs-6 col-sm-4 col-md-3 col-md-2  column">
                    <img src="images/g6.jpg"/> 
 				</div>
-                       
-                        
-                        
-                         </div>
+
 
             </div>
         </div>
+        </div>
+        <div class="container h100" style="margin-top:20px;height:300px; overflow:hidden;">
+            <div class="row h100" >
+                <div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center"  id="scene"  style="">
+                    <div class="qr-codes hidden-sm hidden-xs"  style="position:relative; ">
+                        <div class="note layer"   data-depth="0.20" >
+                          <img src=" images/body.png" />
+                        </div><!--//note-->
+                        <div class="container" style="position:absolute; top:200px; margin:0 auto; left:50px; max-width:500px;"> 
+                        <div class="item col-md-6 col-sm-6 layer"   data-depth="0.80"  style=" margin:0 auto;">
+                                <img src="images/w_img.jpg" alt="" />
+                                <p>微信名片</p>
+                            </div><!--//item-->
+                       <div class="item col-md-6 col-sm-6 layer"   data-depth="0.80"  style=" margin:0 auto;">
+                                <img src="images/t_img.png" alt="" />
+                                <p>zaiktam淘宝店</p>
+                            </div><!--//item-->
+                        </div>                    
+                    </div><!--//qr-codes-->
+                </div><!--//content-->
+               <div id="video-container" class=" h100 video-container col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6 " >
+   <iframe width=100% height="100%" src="http://player.youku.com/embed/XMTM5MzQ2OTE0MA==" frameborder=0 allowfullscreen></iframe>
+
+                </div> <!--//video-->
+            </div><!--//row-->
+        </div>
+        <div class="zt-f">
+        <div class="footer visible-md visible-lg">
+        <div class="footer-wrap">
+         <div class="col-sm-4 column" style="text-align:left;">
+             <a  href="#" style="line-height:70px;"><img class="logo" src="images/logo_w.png" height="38" style=" vertical-align:middle;" /></a>	
+         </div>
+        
+            <div class="col-sm-4 column">
+            <ul style="line-height:70px;">
+            <li><img src="images/ico/weixin.png"/></li>
+             <li><img src="images/ico/weibo.png"/></li>
+               <li><img src="images/ico/youku.png"/></li>
+                  <li><img src="images/ico/taobao.png"/></li>
+            </ul>
+         </div>
+         
+             <div class="col-sm-4 column">
+             <p>Copyright @  Zaiktam Team 2015</p>
+         </div>
+        </div>
+        
+        </div>
+        <div class="v-wrap visible-xs"> 
+        <div class="col-sm-12 column" style=" margin:0 auto;">
+             <p>Copyright @  Zaiktam Team 2015</p>
+         </div></div>
+        </div>
+        
 		<script src="http://www.rmthsc.com/special/jiameng/js/jquery.parallax.js"></script>
 		<script>
 	// Yep, that's it!
