@@ -7,18 +7,10 @@
 
 /* Basic */
 
-	body, input, select, textarea {
-		color: white;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 15pt;
-		font-weight: 300 !important;
-		letter-spacing: -0.025em;
-		line-height: 1.75em;
-	}
-
+.h400{ height:400px; overflow:hidden;}
 	body {
 		background: white;
-		overflow: hidden;
+
 	}
 
 		body.loading * {
@@ -91,7 +83,7 @@
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: fixed;
+		position:absolute;
 		top: 0;
 	}
 	@-moz-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-2250px,0,0); -webkit-transform: translate3d(-2250px,0,0); -o-transform: translate3d(-2250px,0,0); -ms-transform: translate3d(-2250px,0,0); transform: translate3d(-2250px,0,0); } }
@@ -126,7 +118,7 @@
 		height: 100%;
 		left: 0;
 		opacity: 0;
-		position: fixed;
+		position:absolute;
 		top: 0;
 		width: 100%;
 	}
@@ -136,7 +128,7 @@
 	#main {
 		height: 100%;
 		left: 0;
-		position: fixed;
+		position:absolute;
 		text-align: center;
 		top: 0;
 		width: 100%;
@@ -187,13 +179,14 @@
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
+		color:#fff;
 	}
 
 		#header h1 {
 			font-size: 4.35em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
-			line-height: 1em;
+			line-height: 1.5em;
 		}
 
 		#header p {
