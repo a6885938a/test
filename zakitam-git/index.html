@@ -7,7 +7,7 @@
 <meta name="description" content=""/>
 <meta name="author" content=""/>
 <title>zaiktam</title>
-<link href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
 <link href="css/index.css" rel="stylesheet" type="text/css" />
 
 <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -25,12 +25,19 @@ $(document).on("scroll",function(){
 });
 });
 </script>
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+	$(".navbar-toggle").click(function(){
+$(".navbar").toggleClass("navblue-on");
+});
+});
+</script>
 </head>
 <body>
 
 <nav class="navbar navbar-default  navbar-fixed-top " style=" border:none; z-index:100;" role="navigation">
 <div class=" navbar-blue  "></div>
-<div class=""   >
+
   <div class="navbar-header " style=" vertical-align:middle;"  >
   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
 	<span class="sr-only">Toggle navigation</span>
@@ -39,16 +46,15 @@ $(document).on("scroll",function(){
 	<span class="icon-bar"></span>
 	</button>
     <a class="navbar-brand" style="line-height:45px;" href="#"><img src="images/logo_w.png" height="38" style=" vertical-align:middle" /></a>	</div>
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
     <ul class="nav navbar-nav">
-      <li class="active"> <a href="#">首页</a> </li>
-      <li> <a href="#">视频</a> </li>
+      <li class="active"> <a href="index.html">首页</a> </li>
+      <li> <a href="media.html">视频</a> </li>
 	      <li> <a href="#">商城</a> </li>
 		  <li> <a href="#">关于</a> </li>
     
     </ul>
-    
-  </div>
+
   </div>
 </nav>
 <div style="margin-top:-60px;">
@@ -423,7 +429,7 @@ $(document).on("scroll",function(){
          </div></div>
         </div>
         
-		<script src="http://www.rmthsc.com/special/jiameng/js/jquery.parallax.js"></script>
+		<script src="js/jquery.parallax.js"></script>
 		<script>
 	// Yep, that's it!
 	$('#scene').parallax();
