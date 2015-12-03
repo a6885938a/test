@@ -14,9 +14,10 @@
   body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
         margin: 0px;
         padding: 0px;
+	
     }	
 	        html, body { height:100%; }
-        body { margin:0; }
+
 		.h100{ height:100%;}
 	.navbar{ overflow:hidden; border:none;}	
 .navbar a{ color:#fff;}

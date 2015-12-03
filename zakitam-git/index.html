@@ -10,31 +10,8 @@
 <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
 <link href="css/index.css" rel="stylesheet" type="text/css" />
 
-<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-   <script src="js/globaljs.js"></script>
- <script type="text/javascript"> 
-$(document).ready(function(){ 
-
-$(document).on("scroll",function(){
-    if($(document).scrollTop()>70){
-		  $(".navbar-blue").addClass("large");
-        } else {
-             $(".navbar-blue").removeClass("large");
-        }
-});
-});
-</script>
-<script type="text/javascript"> 
-$(document).ready(function(){ 
-	$(".navbar-toggle").click(function(){
-$(".navbar").toggleClass("navblue-on");
-});
-});
-</script>
 </head>
 <body>
-
 <nav class="navbar navbar-default  navbar-fixed-top " style=" border:none; z-index:100;" role="navigation">
 <div class=" navbar-blue  "></div>
 
@@ -57,19 +34,17 @@ $(".navbar").toggleClass("navblue-on");
 
   </div>
 </nav>
-<div style="margin-top:0px;overflow:hidden;">
-  <div class=" clearfix">
-    <div class=" row column">
 
-  
+
+    <div class=" row column" style=" width:100%;overflow:hidden;">
           <img alt="" style="width:100%; max-width:100%; overflow:hidden;" src="images/bike.jpg" />
- 
   </div>
-</div>
+
 
 
  
 		        <!--标题结束-->
+       <div class="" style="display:none;">
             <div class="layout import-collection visible-md visible-lg" style=" margin-top:20px;">
             <div class="tit-name">套餐精选</div>
                 <div class="bd fd-clr" id="accordion">
@@ -412,7 +387,29 @@ $(".navbar").toggleClass("navblue-on");
              <p>Copyright @  Zaiktam Team 2015</p>
          </div></div>
         </div>
-        
+</div>
+<script  src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script src="js/globaljs.js"></script>
+ <script type="text/javascript"> 
+$(document).ready(function(){ 
+$(document).on("scroll",function(){
+    if($(document).scrollTop()>70){
+		  $(".navbar-blue").addClass("large");
+        } else {
+             $(".navbar-blue").removeClass("large");
+        }
+});
+});
+</script>
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+	$(".navbar-toggle").click(function(){
+$(".navbar").toggleClass("navblue-on");
+});
+});
+</script>
+
 		<script src="js/jquery.parallax.js"></script>
 		<script>
 	// Yep, that's it!
