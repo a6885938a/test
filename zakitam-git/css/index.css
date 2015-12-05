@@ -19,7 +19,7 @@
 	        html, body { height:100%; }
 
 		.h100{ height:100%;}
-	.navbar{ overflow:hidden; border:none;}	
+	.navbar{  border:none;}	
 .navbar a{ color:#fff;}
 
  .navbar-default{background: none;
@@ -40,7 +40,23 @@ color: #fff;
 font-weight:bold;
 background: none;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+color: #fff;
+background:none;
+}
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: #fff;
+background-color: transparent;
+}
+.navbar-nav>li>.dropdown-menu { background:none;box-shadow:none;border:0; margin-top:-5px;}
+.navbar-nav>li>.large li{background-color:#1685d0;opacity:0.8;box-shadow:none;border:0;}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: #fff;
+background-color: transparent;
+}
 .navbar-default .navbar-nav>li>a {color: #fff;
  font-size:14px;font-weight:bold; font: "microsoft yahei"; border:0;
 
