@@ -405,10 +405,10 @@ margin-left: auto;
 .navbar-wrapper li a{ color:#1585cf;border-top:none;border-left:none;border-right:none; font-family:"microsoft yahei";cursor:pointer;}
 .nav-tabs>li a:hover{ border:0; }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {color: #1585cf;cursor:pointer;margin-bottom: 0px;background-color: #fff;
-border-bottom:2px solid #1585cf;font-weight:bold;border-top:none;border-left:none;border-right:none;}
-.navbar-wrapper{ padding:0; margin:0 auto; width:100%;z-index:100; overflow:hidden; background:#fff; opacity:0.85;}
-.navbar-wrapper .nav-tabs { border:0; height:40px; overflow:hidden; display:table-row-group;display: table;}
-.navbar-wrapper .nav-tabs li{}
+border-bottom:2px solid #1585cf;font-weight:bold;border-top:none;border-left:none;border-right:none; }
+.navbar-wrapper{ padding:0; margin:0 auto; width:100%;z-index:100; overflow:hidden; background:#fff; opacity:0.9;box-shadow: 4px 4px 8px #666;}
+.navbar-wrapper .nav-tabs { border:0; height:34px; overflow:hidden; display:table-row-group;display: table;}
+
 
 /**max width 980px**/
 @media screen and (max-width:1200px) {
@@ -454,15 +454,19 @@ border-bottom:2px solid #1585cf;font-weight:bold;border-top:none;border-left:non
 .breadcrumb>li{ float:left;}
 
 .breadcrumb>li+li:before{ float:left;}
-.li-wrap{
-width: 100%;
-max-width:1190px;
-
-margin: 0 auto;
-
-padding-bottom: 50px;
+.li-wrap{width: 100%;max-width:1190px;margin: 0 auto;padding-bottom:20px;}
+.li-media-wrap{ width:100%; height:380px;}
+.li-header-con{ height:330px; overflow:auto;
+scrollbar-arrow-color: color; /*三角箭头的颜色*/
+scrollbar-face-color: color; /*立体滚动条的颜色（包括箭头部分的背景色）*/
+scrollbar-3dlight-color: color; /*立体滚动条亮边的颜色*/
+scrollbar-highlight-color: color; /*滚动条的高亮颜色（左阴影？）*/
+scrollbar-shadow-color: color; /*立体滚动条阴影的颜色*/
+scrollbar-darkshadow-color: color; /*立体滚动条外阴影的颜色*/
+scrollbar-track-color: color; /*立体滚动条背景颜色*/
+scrollbar-base-color:color; /*滚动条的基色*/
 }
-.li-header-wrap{ background:#e4e4e4;}
+.li-header-wrap{ background:#e4e4e4; height:380px; }
 .b-wrap{background: #f2f2f2;width: 100%;}
 .li-title{ height:50px; line-height:50px; font-size:18px; font-weight:bold; }
 .breadcrumb li h1{ font-size:14px; font-weight:bold; display:inline;}
