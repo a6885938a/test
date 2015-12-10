@@ -519,3 +519,8 @@ margin-top: 10px;
 .supply_more{ float:right; padding-right:8px; color:#FFFFFF; font-size:12px;}
 a.supply_more{ color:#fff;}
 
+ul,li{list-style:none}
+.fl{ float:left;}
+.fr{ float:right;}
+.cl{ clear:both;}
+
