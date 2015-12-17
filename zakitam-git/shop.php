@@ -22,7 +22,7 @@
 <body>
 <div style="height:400px; overflow:hidden; position:relative;" id="wrap">
   <?php
-include("header.php");
+include dirname(__FILE__).'/header.php'; 
 ?>
   <div style="height:400px; overflow:hidden;" id="bg"></div>
   <div style="height:400px; overflow:hidden;" id="overlay"></div>
@@ -70,16 +70,16 @@ include("header.php");
 </div>
 <div class="container" >
   <ul class="grid effect-6" id="grid">
-    <li> <a href="shop/travel.html"> <img src="images/produt/travel/header.jpg"> </a> </li>
-    <li> <a href="shop/life.html"> <img src="images/produt/life/header.jpg"> </a> </li>
-    <li> <a href="shop/fish.html"> <img src="images/produt/fish/header.jpg"> </a></li>
+    <li> <a href="shop/travel.php"> <img src="images/produt/travel/header.jpg"> </a> </li>
+    <li> <a href="shop/life.php"> <img src="images/produt/life/header.jpg"> </a> </li>
+    <li> <a href="shop/fish.php"> <img src="images/produt/fish/header.jpg"> </a></li>
 
   </ul>
   
 </div>
 
 <?php
-include("footer.php");
+include dirname(__FILE__).'/footer.php'; 
 ?>
 <script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
 <script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> 

@@ -71,11 +71,11 @@ include("header.php");
 <div class="container" style="margin-top:-40px;">
   <ul class="grid effect-6" id="grid">
     <li id="ld"> <a id="modal-1" href="media/media-li.php"> <img src="images/2.jpg"> </a> </li>
-    <li> <a id="modal-2" href="media-li.html"> <img src="images/1.jpg"> </a> </li>
+    <li> <a id="modal-2" href="media/media-li.php"> <img src="images/1.jpg"> </a> </li>
     <li><img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg"></li>
-    <li id="nr"><a href="media-li.html"><img src="images/f1.jpg"></a></li>
-    <li><a href="media-li.html"> <img src="images/2.jpg"> </a></li>
-    <li><a href="media-li.html"><img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg"></a></li>
+    <li id="nr"><a href="media/media-li.php"><img src="images/f1.jpg"></a></li>
+    <li><a href="media/media-li.php"> <img src="images/2.jpg"> </a></li>
+    <li><a href="media/media-li.php"><img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg"></a></li>
     <li id="tj"><a href="http://drbl.in/fWMM"> <img src="images/2.jpg"> </a></li>
     <li><a href="http://drbl.in/fWPV"> <img src="images/1.jpg"></a></li>
     <li><a href="http://drbl.in/fWMT"><img src="images/f1.jpg"></a></li>

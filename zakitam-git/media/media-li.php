@@ -16,8 +16,9 @@
 </head>
 <body>
 <?php
-include("D:\git\zakitam-git\header.php");
+include dirname(__FILE__).'/../header.php'; 
 ?>
+
 
 <div class="b-wrap"> 
 <div class="container li-wrap" >
@@ -25,10 +26,10 @@ include("D:\git\zakitam-git\header.php");
 		<div class="col-md-12 column">
 			<ul class="breadcrumb">
 				<li>
-					 <a href="index.html">首页</a>
+					 <a href="/index.php">首页</a>
 				</li>
 				<li>
-					 <a href="media.html#ld">Gopo技巧</a>
+					 <a href="/media.php#ld">Gopo技巧</a>
 				</li>
 				<li class="active">
 					<h1 >差旅东南亚体验菲律宾</h1>
@@ -63,7 +64,7 @@ include("D:\git\zakitam-git\header.php");
 </div>
 </div>
 <?php
-include("../footer.php");
+include dirname(__FILE__).'/../footer.php'; 
 ?>
    
 <script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 

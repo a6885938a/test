@@ -12,14 +12,13 @@
 </head>
 <body>
 <?php
-include("header.php");
-?>
-
-<?php
-include("cont.php");
+include dirname(__FILE__).'/header.php'; 
 ?>
 <?php
-include("footer.php");
+include dirname(__FILE__).'/cont.php'; 
+?>
+<?php
+include dirname(__FILE__).'/footer.php'; 
 ?>
 
 
