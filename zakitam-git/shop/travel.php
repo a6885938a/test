@@ -95,11 +95,13 @@ include dirname(__FILE__).'/shop-group-li.php';
   
   </div>
 </div>
+
 <?php
 include dirname(__FILE__).'/../footer.php'; 
 ?>
 <?php
 include dirname(__FILE__).'/shop-li-footer.php'; 
 ?>
+
 </body>
 </html>
