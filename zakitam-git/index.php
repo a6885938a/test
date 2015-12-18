@@ -21,16 +21,11 @@ include dirname(__FILE__).'/cont.php';
 include dirname(__FILE__).'/footer.php'; 
 ?>
 
-
-<script  src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
-<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
 <script src="js/globaljs.js"></script> 
-
 <script type="text/javascript"> 
 $(document).ready(function(){ 
 $(document).on("scroll",function(){
     if($(document).scrollTop()>50){
-	
 		  $(".navbar-blue").addClass("large");
 		    $(".dropdown-menu").addClass("large");
         } else {
@@ -38,20 +33,17 @@ $(document).on("scroll",function(){
 			 $(".dropdown-menu").removeClass("large");
         }
 });
-});
-</script>
-<script type="text/javascript"> 
-$(document).ready(function(){ 
-$(".navbar").addClass("navbar-fixed-top");
+	$('#scene').parallax();//轻量化
+	$(".navbar").addClass("navbar-fixed-top");
 	$(".navbar-toggle").click(function(){
 $(".navbar").toggleClass("navblue-on");
 });
 });
-</script> 
-<script src="js/jquery.parallax.js"></script> 
-<script>
-	// Yep, that's it!
-	$('#scene').parallax();
-	</script>
+</script>
+
+
+<script src="js/jquery.parallax.js"></script> <!--轻量化-->
+
+
 </body>
 </html>

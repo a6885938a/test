@@ -81,8 +81,7 @@ include dirname(__FILE__).'/header.php';
 <?php
 include dirname(__FILE__).'/footer.php'; 
 ?>
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
-<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> 
+
 <script src="js/modernizr.custom.js"></script><!--瀑布流--> 
 <script src="js/skel.min.js"></script><!--背景滚动--> 
 <script src="js/masonry.pkgd.min.js"></script> 
