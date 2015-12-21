@@ -21,7 +21,7 @@
 </head>
 <body>
 <div style="height:400px; overflow:hidden; position:relative;" id="wrap">
-  <?php
+<?php
 include dirname(__FILE__).'/header.php'; 
 ?>
   <div style="height:400px; overflow:hidden;" id="bg"></div>
@@ -97,6 +97,13 @@ include dirname(__FILE__).'/footer.php';
 		</script> 
 <script src="js/stickUp.min.js"></script> 
 <script type="text/javascript"> 
+$(window).load(function() { 
+  $('img').each(function() {
+    if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) { 
+      this.src = '/images/loading.jpg'; 
+      } 
+   });
+});
 $(document).ready(function(){ 
 	$(".navbar-toggle").click(function(){
 $(".navbar").toggleClass("navblue-on");

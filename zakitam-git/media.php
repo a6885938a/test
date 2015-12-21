@@ -7,8 +7,7 @@
 <title>zaiktam</title>
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="stylesheet" type="text/css" href="css/component.css" />
-<!--瀑布流-->
+
 
 <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet" type="text/css">
@@ -17,7 +16,8 @@
 <!--背景滚动-->
 <link href="css/style-normal.css" rel="stylesheet" type="text/css"  />
 <!--背景滚动-->
-
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<!--瀑布流-->
 </head>
 <body>
 <div style="height:400px; overflow:hidden; position:relative;" id="wrap">
@@ -63,29 +63,49 @@ include("header.php");
     <ul class="nav nav-tabs" style=" margin:0 auto; text-align:center; ">
       <li class="menuItem active"> <a id="ld-on">Gopo技巧</a> </li>
       <li class="menuItem "> <a id="nr-on">视频日志</a> </li>
-      <li class="menuItem "> <a id="tj-on">开箱</a> </li>
+      <li class="menuItem "> <a id="tj-on">原创视频</a> </li>
       <li class="menuItem "> <a id="sj-on">其他</a> </li>
     </ul>
   </div>
 </div>
 <div class="container" style="margin-top:-40px;">
   <ul class="grid effect-6" id="grid">
-    <li id="ld"> <a id="modal-1" href="media/media-li.php"> <img src="images/2.jpg"> </a> </li>
-    <li> <a id="modal-2" href="media/media-li.php"> <img src="images/1.jpg"> </a> </li>
-    <li><img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg"></li>
-    <li id="nr"><a href="media/media-li.php"><img src="images/f1.jpg"></a></li>
-    <li><a href="media/media-li.php"> <img src="images/2.jpg"> </a></li>
-    <li><a href="media/media-li.php"><img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg"></a></li>
-    <li id="tj"><a href="http://drbl.in/fWMM"> <img src="images/2.jpg"> </a></li>
-    <li><a href="http://drbl.in/fWPV"> <img src="images/1.jpg"></a></li>
-    <li><a href="http://drbl.in/fWMT"><img src="images/f1.jpg"></a></li>
-    <li><a href="http://drbl.in/fGhI"><img src="images/f1.jpg"></a></li>
-    <li id="sj"><a href="http://drbl.in/fKCf"><img src="images/f1.jpg"></a></li>
-    <li><a href="http://drbl.in/fLBG"><img src="images/f1.jpg"></a></li>
-    <li><a href="http://drbl.in/fPEY"><img src="images/f1.jpg"></a></li>
-    <li id="sf"><a href="http://drbl.in/fWwG"><img src="images/f1.jpg"></a></li>
-    <li><a href="http://drbl.in/fQdt"><img src="images/f1.jpg"></a></li>
-    <li><a href="http://drbl.in/fHaa"><img src="images/f1.jpg"></a></li>
+  <!--gopro技巧-->
+    <li id="ld"> <a href="media/skill/skill-1.php"> <img src="/images/media/skill/1.jpg"> </a> </li>
+    <li><a href="media/skill/skill-2.php"> <img src="images/media/skill/12.jpg"> </a> </li>
+    <li><a href="media/skill/skill-3.php"> <img src="images/media/skill/3.jpg"> </a> </li>
+    <li><a href="media/skill/skill-4.php"> <img src="images/media/skill/4.jpg"> </a> </li>
+    <li><a href="media/skill/skill-5.php"> <img src="images/media/skill/5.jpg"> </a> </li>
+    <li style="display:none;"><a href="media/skill/skill-6.php"> <img src="images/media/skill/6.jpg"> </a> </li>
+    <li  style="display:none;"><a href="media/skill/skill-8.php"> <img src="images/media/skill/7.jpg"> </a> </li>
+    <li><a href="media/skill/skill-7.php"> <img src="images/media/skill/8.jpg"> </a> </li>
+      <!--视频日志-->
+    <li id="nr"> <a href="media/log/log-1.php"> <img src="/images/media/log/1.jpg"> </a> </li>
+    <li><a href="media/log/log-2.php"> <img src="/images/media/log/2.jpg"> </a> </li>
+    <li><a href="media/log/log-3.php"> <img src="/images/media/log/3.jpg"> </a> </li>
+    <li><a href="media/log/log-4.php"> <img src="/images/media/log/4.jpg"> </a> </li>
+    <li><a href="media/log/log-5.php"> <img src="/images/media/log/5.jpg"> </a> </li>
+    <li><a href="media/log/log-6.php"> <img src="/images/media/log/6.jpg"> </a> </li>
+      <!--原创视频-->
+    <li id="tj"><a href="media/origin/origin-1.php"> <img src="/images/media/origin/1.jpg"> </a></li>
+    <li><a href="media/origin/origin-2.php"> <img src="/images/media/origin/2.jpg"> </a></li>
+    <li><a href="media/origin/origin-3.php"> <img src="/images/media/origin/3.jpg"> </a></li>
+    <li><a href="media/origin/origin-4.php"> <img src="/images/media/origin/4.jpg"> </a></li>
+    <li><a href="media/origin/origin-5.php"> <img src="/images/media/origin/5.jpg"> </a></li>
+    <li><a href="media/origin/origin-6.php"> <img src="/images/media/origin/6.jpg"> </a></li>
+    <li><a href="media/origin/origin-7.php"> <img src="/images/media/origin/7.jpg"> </a></li>
+    <li><a href="media/origin/origin-8.php"> <img src="/images/media/origin/8.jpg"> </a></li>
+    <li><a href="media/origin/origin-9.php"> <img src="/images/media/origin/9.jpg"> </a></li>
+    <li><a href="media/origin/origin-10.php"> <img src="/images/media/origin/10.jpg"> </a></li>
+    <li><a href="media/origin/origin-11.php"> <img src="/images/media/origin/11.jpg"> </a></li>
+    <li><a href="media/origin/origin-12.php"> <img src="/images/media/origin/12.jpg"> </a></li>
+    <li><a href="media/origin/origin-13.php"> <img src="/images/media/origin/13.jpg"> </a></li>
+    <li><a href="media/origin/origin-14.php"> <img src="/images/media/origin/14.jpg"> </a></li>
+    <li><a href="media/origin/origin-15.php"> <img src="/images/media/origin/15.jpg"> </a></li>
+    <li><a href="media/origin/origin-16.php"> <img src="/images/media/origin/16.jpg"> </a></li>
+    <li><a href="media/origin/origin-17.php"> <img src="/images/media/origin/17.jpg"> </a></li>
+    <li><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a></li>
+    <li id="sj"> <li><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a></li></li>
   </ul>
   <div class="modal fade" style=" " id="modal-container-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="close-on"  data-dismiss="modal" aria-hidden="true">×</div>
@@ -123,16 +143,19 @@ include("header.php");
     </div>
   </div>
 </div>
+<script src="js/skel.min.js"></script><!--背景滚动--> 
+<script src="js/modernizr.custom.js"></script><!--瀑布流--> 
+
+<script src="js/masonry.pkgd.min.js"></script> <!--瀑布流--> 
+
+
+
 <?php
 include("footer.php");
 ?>
-
-<script src="js/modernizr.custom.js"></script><!--瀑布流--> 
-<script src="js/skel.min.js"></script><!--背景滚动--> 
-<script src="js/masonry.pkgd.min.js"></script> 
-<script src="js/imagesloaded.js"></script> 
-<script src="js/classie.js"></script> 
-<script src="js/AnimOnScroll.js"></script> 
+<script src="js/imagesloaded.js"></script> <!--瀑布流--> 
+<script src="js/classie.js"></script> <!--瀑布流--> 
+<script src="js/AnimOnScroll.js"></script> <!--瀑布流--> 
 <script>
 			new AnimOnScroll( document.getElementById( 'grid' ), {
 				minDuration : 0.4,
@@ -142,6 +165,13 @@ include("footer.php");
 		</script> 
 <script src="js/stickUp.min.js"></script> 
 <script type="text/javascript"> 
+$(window).load(function() { 
+  $('img').each(function() {
+    if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) { 
+      this.src = '/images/loading.jpg'; 
+      } 
+   });
+});
 $(document).ready(function(){ 
 	$(".navbar-toggle").click(function(){
 $(".navbar").toggleClass("navblue-on");

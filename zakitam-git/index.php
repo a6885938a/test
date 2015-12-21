@@ -20,6 +20,9 @@ include dirname(__FILE__).'/cont.php';
 <?php
 include dirname(__FILE__).'/footer.php'; 
 ?>
+<?php
+include dirname(__FILE__).'/delayload.php'; 
+?>
 
 <script src="js/globaljs.js"></script> 
 <script type="text/javascript"> 
