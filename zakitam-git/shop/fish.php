@@ -98,6 +98,9 @@ include dirname(__FILE__).'/shop-group-li.php';
 include dirname(__FILE__).'/../footer.php'; 
 ?>
 <?php
+include dirname(__FILE__).'/../delayload.php'; 
+?>
+<?php
 include dirname(__FILE__).'/shop-li-footer.php'; 
 ?>
 </body>

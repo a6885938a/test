@@ -4,19 +4,19 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>差旅东南亚体验菲律宾</title>
+<title>Session专属底座与旧款底座对比</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
 
 <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-<link href="../css/index.css" rel="stylesheet" type="text/css">
+<link href="../../css/index.css" rel="stylesheet" type="text/css">
 
 
 </head>
 <body>
 <?php
-include dirname(__FILE__).'/../header.php'; 
+include dirname(__FILE__).'/../../header.php'; 
 ?>
 
 
@@ -29,10 +29,10 @@ include dirname(__FILE__).'/../header.php';
 					 <a href="/index.php">首页</a>
 				</li>
 				<li>
-					 <a href="/media.php#ld">Gopo技巧</a>
+					 <a href="/media.php#ld">GoPro技巧</a>
 				</li>
 				<li class="active">
-					<h1 >差旅东南亚体验菲律宾</h1>
+					<h1>Session专属底座与旧款底座对比</h1>
 				</li>
           <div class="qrcode  visible-md visible-lg">
                     <div class="mob-s" >手机扫码分享</div>
@@ -45,8 +45,7 @@ include dirname(__FILE__).'/../header.php';
 <div class="row clearfix">
 		<div class="col-md-8 column">
         <div class="li-media-wrap">
-        <iframe width="100%" height="100%" src="http://player.youku.com/embed/XMTM5MzQ2OTE0MA==" frameborder=0 allowfullscreen></iframe>
-      </div>
+<iframe height=100% width=100% src="http://player.youku.com/embed/XMTM3MjExMjYyNA==" frameborder=0 allowfullscreen></iframe>      </div>
 		</div>
 		<div class="col-md-4 column li-header-wrap">
            <div class="li-header-on" >
@@ -54,22 +53,19 @@ include dirname(__FILE__).'/../header.php';
     
       </div>
       <div class="li-header-con">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
+      
 		</div>
         </div>
 	</div>
 </div>
 </div>
 <?php
-include dirname(__FILE__).'/../footer.php'; 
+include dirname(__FILE__).'/../../footer.php'; 
 ?>
    
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
-<script type="text/javascript" src="../js/jquery.qrcode.min.js"></script><!--二维码-->
-<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> 
+
+<script type="text/javascript" src="../../js/jquery.qrcode.min.js"></script><!--二维码-->
+
 <script type="text/javascript"> 
 $(document).ready(function(){ 
 	$(".navbar-toggle").click(function(){

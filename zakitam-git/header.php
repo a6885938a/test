@@ -12,12 +12,12 @@
           <ul class="dropdown-menu">
             <li> <a href="/media.php#ld" >Gopo技巧</a> </li>
             <li> <a href="/media.php#nr">视频日志</a> </li>
-            <li> <a href="/media.php#tj">开箱</a> </li>
+            <li> <a href="/media.php#tj">原创视频</a> </li>
             <li> <a href="/media.php#sj">其他</a> </li>
           </ul>
         </li>
         <li> <a href="/shop.php">商城</a> </li>
-        <li> <a href="#">关于</a> </li>
+        <li> <a href="/about.php">关于</a> </li>
       </ul>
     </div>
     </div>
