@@ -8,6 +8,7 @@
 <meta name="author" content=""/>
 <title>zaiktam</title>
 <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+
 <link href="css/index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -20,9 +21,7 @@ include dirname(__FILE__).'/cont.php';
 <?php
 include dirname(__FILE__).'/footer.php'; 
 ?>
-<?php
-include dirname(__FILE__).'/delayload.php'; 
-?>
+
 
 <script src="js/globaljs.js"></script> 
 <script type="text/javascript"> 
