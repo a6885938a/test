@@ -3,6 +3,7 @@
 
 <!--标题结束-->
 
+<div class="">
   <div class="layout import-collection visible-md visible-lg" style=" margin-top:20px;">
     <div class="tit-name">套餐精选</div>
     <div class="bd fd-clr" id="accordion">
@@ -231,3 +232,4 @@
     <!--//row--> 
   </div>
   
+</div>
