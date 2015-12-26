@@ -1,3 +1,13 @@
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e1465fc20e275b9620a469ec06782612";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+//百度统计
+</script>
 
 <nav class="navbar navbar-default " style=" border:none; z-index:100; " role="navigation">
   <div class=" navbar-blue"></div>
