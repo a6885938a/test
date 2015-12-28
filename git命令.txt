@@ -1,0 +1,52 @@
+$ git remote add origingit@github.com:a6885938a/gitdemo.git   // 新建分支用于存放别人的repository
+
+git clone https://github.com/winterIce/testTitle.git  克隆到本地
+
+cd 'D:/testRepo'(打开文件命令加个单引号就)
+
+git fetch branch2//更新信息
+
+git merge branch2/master    //merge本地信息（最近的文件）
+
+git cherry-pick 321d76f（拣选另一条分支上的某个提交条目的改动带到当前分支上）
+
+git add . //添加新文件或者更改新文件
+
+git remove  ** //删除文件
+
+git commit -m 'by who do what'  //提交文件到本地
+
+git push  //push到服务器上
+
+git push -f //（强制推送）
+
+git pull origin master 从服务器上拉取信息
+
+git remote  查看repository上的所有分支
+
+git checkout -b new_feature  //创建并同时切换
+
+git branch -a  查看所有分支
+
+git branch -r 查看远程分支
+
+git branch -m | -M oldbranch newbranch 重命名分支，如果newbranch名字分支已经存在，则需要使用-M强制重命名，否则，使用-m进行重命名。
+git branch -d branchname //删除branchname分支
+
+git branch -d -r branchname 删除远程branchname分支
+
+git push origin :branch-name //删除远程分支
+
+git branch *** //新建分支
+
+git checkout ***//切换分支
+
+git status //查看本地修改与服务器的差异。
+
+git log //查看提交修改记录
+
+git reflog//查看提交日志
+
+git reset --hard   //回滚上一个状态 比如 git reset --hard 91deaf 要回滚到的版本号，
+
+git reset –hard HEAD~3  会将最新的3次提交全部重置，就像没有提交过一样
