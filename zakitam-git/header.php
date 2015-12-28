@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -10,8 +8,6 @@ var _hmt = _hmt || [];
 })();
 //百度统计
 </script>
->>>>>>> 814e33b8fff922fd778973c7cea7228c42cfba52
-
 <nav class="navbar navbar-default " style=" border:none; z-index:100; " role="navigation">
   <div class=" navbar-blue"></div>
  <div class="nav-wrap" >

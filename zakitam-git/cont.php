@@ -1,15 +1,7 @@
-
-<<<<<<< HEAD
-=======
 <div class="modal fade in" style=" display:block;opacity:0.8; background:#000; vertical-align:middle; font-size:4rem; text-align:center; color:#fff;">
 <p style=" padding-top:100px; margin-top:100px;"> UNDER CONSTRUCTION...</p></div>
-
-
->>>>>>> 814e33b8fff922fd778973c7cea7228c42cfba52
 <div class=" row column" style=" width:100%;overflow:hidden;"> <img alt="" style="width:100%; max-width:100%; overflow:hidden;" src="images/bike.jpg" /> </div>
-
 <!--标题结束-->
-
 <div class="">
   <div class="layout import-collection visible-md visible-lg" style=" margin-top:20px;">
     <div class="tit-name">套餐精选</div>
