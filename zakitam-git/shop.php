@@ -77,7 +77,6 @@ include dirname(__FILE__).'/header.php';
   </ul>
   
 </div>
-
 <?php
 include dirname(__FILE__).'/footer.php'; 
 ?>

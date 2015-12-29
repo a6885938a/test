@@ -15,17 +15,17 @@
 
 </head>
 <body>
-<div style="height:500px; overflow:hidden; position:relative; " id="wrap">
+<div style="height:100%; overflow:hidden; position:relative; " id="wrap">
   <?php
 include dirname(__FILE__).'/header.php'; 
 ?>
   <!-- Header -->
   <div style="max-width:1920px;  width:100%; margin:0 auto; position:absolute; top:0;">
     <div class="p-header">
-      <video autoplay class="img img-responsive" height="760" id="home-main-video" loop muted="muted" width="1920">
-        <source src="https://res.cloudinary.com/splacer/video/upload/c_fill,h_760,w_1920,x_0,y_225/v1/Production/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
-        <source src="https://res.cloudinary.com/splacer/video/upload/c_fill,h_760,w_1920,x_0,y_225/v1/Production/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
-        <source src="https://res.cloudinary.com/splacer/video/upload/c_fill,h_760,w_1920,x_0,y_225/v1/Production/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
+      <video autoplay class="img img-responsive" height="100" id="home-main-video" loop muted="muted" width="100%">
+        <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
+        <source src="/images/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
+        <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
    </video>
       <div class="home-title">
         <div class="sp-home-big-head sp-bold">zakitam 工作室:佛山市禅城区建新路莺岗街621号火山滑板店</div>
