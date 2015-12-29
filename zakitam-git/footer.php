@@ -33,6 +33,13 @@
   </div>
  <script  src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
 <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="/js/helium.js"></script><!--css优化工具-->
+<script type="text/javascript"><!--css优化工具-->
+    window.addEventListener('load', function(){
+        helium.init();
+    }, false);
+</script>
+
 <script>
         $(function() {
             var e = $("#rocket-to-top"),
