@@ -15,14 +15,14 @@
 
 </head>
 <body>
-<div style="height:100%; overflow:hidden; position:relative; " id="wrap">
+<div style="position:relative;overflow:hidden; height:100%; " id="wrap">
   <?php
 include dirname(__FILE__).'/header.php'; 
 ?>
   <!-- Header -->
   <div style="max-width:1920px;  width:100%; margin:0 auto; position:absolute; top:0;">
     <div class="p-header">
-      <video autoplay class="img img-responsive" height="100" id="home-main-video" loop muted="muted" width="100%">
+      <video autoplay class="img img-responsive" id="home-main-video" loop muted="muted" width="1920">
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />

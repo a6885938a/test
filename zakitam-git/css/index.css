@@ -961,17 +961,16 @@ ul, li {
 }
 /*about*/
 .p-header {
-	position: relative;
+	position: relative;  margin:0 auto;
 }
 .p-header video {
-	max-width: 100%;
+	position:fixed; overflow:hidden;
 }
 .p-header .home-title {
 	position: absolute;
-	width: 950px;
+	width: 100%;
 	top: 120px;
-	left: 50%;
-	margin-left: -480px;
+
 	text-align: center;
 }
 .p-header .home-title h1 {
