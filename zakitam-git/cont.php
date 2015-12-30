@@ -1,5 +1,6 @@
 <div class="modal fade in" style=" display:block;opacity:0.8; background:#000; vertical-align:middle; font-size:4rem; text-align:center; color:#fff;">
-<p style=" padding-top:100px; margin-top:100px;"> UNDER CONSTRUCTION...</p></div>
+  <p style=" padding-top:100px; margin-top:100px;"> UNDER CONSTRUCTION...</p>
+</div>
 <div class=" row column" style=" width:100%;overflow:hidden;"> <img alt="" style="width:100%; max-width:100%; overflow:hidden;" src="images/bike.jpg" /> </div>
 <!--标题结束-->
 <div class="">
@@ -9,6 +10,7 @@
       <ul class="fd-clr">
         <li class="t current"> <a  target="_blank" class="left">
           <div class="triangle"> </div>
+          s
           <div class="map"> <img class="background" src="images/b1.png" alt=""/> </div>
           <img class="background" src="images/f1.jpg"  alt=""/> </a>
           <div class="right">
@@ -230,5 +232,4 @@
     </div>
     <!--//row--> 
   </div>
-  
 </div>
