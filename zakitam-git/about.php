@@ -15,14 +15,16 @@
 
 </head>
 <body>
-<div style="position:relative;overflow:hidden; height:100%; " id="wrap">
+<div style="position:relative;overflow:hidden; height:100%;" id="wrap">
   <?php
 include dirname(__FILE__).'/header.php'; 
 ?>
-  <!-- Header -->
-  <div style="max-width:1920px;  width:100%; margin:0 auto; position:absolute; top:0;">
+  <!-- Header
+  style="max-width:1920px;  width:100%; margin:0 auto; position:absolute; top:0;"
+   -->
+  <div >
     <div class="p-header">
-      <video autoplay class="img img-responsive" id="home-main-video" loop muted="muted" width="1920">
+      <video autoplay loop muted="muted" >
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
@@ -40,10 +42,11 @@ include dirname(__FILE__).'/header.php';
   <!-- Footer --> 
 </div>
 </div>
-
+<div class="about-footer">
 <?php
 include dirname(__FILE__).'/footer.php'; 
 ?>
+</div>
 <!--
 <script src="https://www.splacer.co/assets/application-305bb38705e313cbef2dbaea3c9ffd0a.js"></script>
 -->
@@ -52,6 +55,7 @@ $(document).ready(function(){
 	$(".navbar-toggle").click(function(){
 $(".navbar").toggleClass("navblue-on");
 });
+$(".footer").css("background","none");
 });
 </script>
 </body>

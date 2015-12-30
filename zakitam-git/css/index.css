@@ -964,7 +964,7 @@ ul, li {
 	position: relative;  margin:0 auto;
 }
 .p-header video {
-	position:fixed; overflow:hidden;
+
 }
 .p-header .home-title {
 	position: absolute;
@@ -978,7 +978,7 @@ ul, li {
 }
 .sp-home-big-head {
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 28px;
 	color: white;
 	text-shadow: 2px -2px 7px black;
 }
@@ -1018,3 +1018,16 @@ img {
 }
 
 .sbbbbb{ display:block; overflow:hidden; width:100px; height:100px;}
+video {
+    position: fixed;
+	left:50%;
+	margin-left:-960px;
+	top:-80px;
+      min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+.about-footer{position:fixed; bottom:0; z-index:1000; width:100%; }
+.about-footer .v-wrap p{ color:#fff;}
