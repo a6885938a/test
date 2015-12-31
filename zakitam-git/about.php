@@ -24,7 +24,7 @@ include dirname(__FILE__).'/header.php';
    -->
   <div >
     <div class="p-header">
-      <video autoplay loop muted="muted" >
+      <video autoplay loop muted="muted" poster="/images/Splacer_banner.jpg" >
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
