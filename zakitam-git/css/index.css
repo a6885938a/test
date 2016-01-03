@@ -1,8 +1,9 @@
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
 	margin: 0px;
-	padding: 0px;
+	padding: 0px; 
 }
 html, body {
+	
 	height: 100%;
 }
 .nav-wrap {
@@ -36,6 +37,7 @@ html, body {
 	height: 70px;
 	transition: all 0.3s ease-out 0s;
 }
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
 }
@@ -551,6 +553,7 @@ to {
 	border-right: none;
 	font-family: "microsoft yahei";
 	cursor: pointer;
+	padding:10px 8px;
 }
 .nav-tabs>li a:hover {
 	border: 0;
@@ -679,10 +682,15 @@ to {
 	font-size: 18px;
 	font-weight: bold;
 }
-.breadcrumb li h1 {
+.breadcrumb li h1,.product-price-wrapper h1 {
 	font-size: 14px;
 	font-weight: bold;
 	display: inline;
+}
+.product-price-wrapper h1 {
+	font-size: 16px;
+	font-weight: bold;
+
 }
 .qrcode {
 	float: right;

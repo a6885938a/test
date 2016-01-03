@@ -8,7 +8,7 @@
 <?php
 include dirname(__FILE__).'/shop-li-header.php'; 
 ?>
-</head></head>
+</head>
 <body>
 <?php
 include dirname(__FILE__).'/../header.php'; 
@@ -18,8 +18,8 @@ include dirname(__FILE__).'/../header.php';
     <div class="row clearfix">
       <div class="col-md-12 column">
         <ul class="breadcrumb">
-          <li> <a href="../index.html">首页</a> </li>
-          <li> <a href="../shop.html">商城</a> </li>
+          <li> <a href="/index.php">首页</a> </li>
+          <li> <a href="/shop.php">商城</a> </li>
              <li class="active">
             <h1>新手套装</h1>
           </li>
@@ -42,13 +42,7 @@ include dirname(__FILE__).'/../header.php';
           </div>
         </div>
         <div class="col-md-9 product-price-wrapper">
-          <h3><span>新手套装 - 运动相机玩家 zakitam 推荐|GoPro HERO4 SILVER</span></h3>
-          <table class="table">
-            <tr>
-              <td width="50" class="text-muted">价格</td>
-              <td><span class="price"><b class="rmb">¥</b><b class="num">3222.00</b class="rmb"><b>起</b></span></td>
-            </tr>
-          </table>
+          <h1><span>新手套装 - 运动相机玩家 zakitam 推荐|GoPro HERO4 SILVER</span></h1>
           <div class="form-group hidden-xs"> <a class="btn btn-primary" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10120540-11335991006.4.Zu3nCF&id=520133432270" target="_blank"> 去淘宝购买 </a> </div>
           <div class="form-group visible-xs navbar-fixed-bottom"> <a class="btn btn-primary btn-block" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10120540-11335991006.4.Zu3nCF&id=520133432270" target="_blank"> 去淘宝购买 </a> </div>
         </div>

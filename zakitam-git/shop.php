@@ -94,7 +94,7 @@ include dirname(__FILE__).'/footer.php';
 				viewportFactor : 0.2
 			} );
 		</script> 
-<script src="js/stickUp.min.js"></script> 
+
 <script type="text/javascript"> 
 $(window).load(function() { 
   $('img').each(function() {
@@ -109,40 +109,6 @@ $(".navbar").toggleClass("navblue-on");
 });
 });
 </script> 
-<script type="text/javascript">
-      jQuery(function($) {
-        $(document).ready( function() {
-          $('.navbar-wrapper').stickUp({
-                        parts: {
-                          0:'ld',
-                          1:'nr',
-                          2: 'tj',
-                          3: 'sj',
-                          4: 'sf',
-                          5: 'fy',
-                          6: 'sf',
-                          7: 'sf'
-                        },
-                        itemClass: 'menuItem',
-                        itemHover: 'active',
-                        topMargin: 'auto'
-                      });
 
-	 $('#ld-on').click(function(){
-    $("html,body").animate({scrollTop:$("#ld").offset().top},500);
-});
-$('#nr-on').click(function(){
-    $("html,body").animate({scrollTop:$("#nr").offset().top},500);
-});
-$('#tj-on').click(function(){
-    $("html,body").animate({scrollTop:$("#tj").offset().top},500);
-});
-$('#sj-on').click(function(){
-    $("html,body").animate({scrollTop:$("#sj").offset().top},500);
-});
-
-        });
-      });
-    </script>
 </body>
 </html>

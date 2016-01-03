@@ -4,20 +4,20 @@
         <div class="col-sm-4 column" style="text-align:left;"> <a  href="/index.php" style="line-height:70px;"><img class="logo" src="/images/logo_w.png" height="38" style=" vertical-align:middle;" /></a> </div>
         <div class="col-sm-4 column">
           <ul style="line-height:70px;">
-            <li><img src="/images/ico/weixin.png"/></li>
-            <li><img src="/images/ico/weibo.png"/></li>
-            <li><img src="/images/ico/youku.png"/></li>
-            <li><img src="/images/ico/taobao.png"/></li>
+            <li style="display:none;"><img src="/images/ico/weixin.png"/></li>
+            <li><a href="http://weibo.com/zakitamgopro" target="_blank"><img src="/images/ico/weibo.png"/></a></li>
+            <li><a href="http://i.youku.com/u/UMjMzNjcyOTY4" target="_blank"><img src="/images/ico/youku.png"/></a></li>
+            <li><a href="https://shop125086752.taobao.com/?spm=2013.1.1000126.2.aZZwrC" target="_blank"><img src="/images/ico/taobao.png"/></a></li>
           </ul>
         </div>
         <div class="col-sm-4 column">
-          <p>Copyright @  Zaiktam Team 2015</p>
+          <p>Copyright @  Zaiktam Team 2016</p>
         </div>
       </div>
     </div>
     <div class="v-wrap visible-xs">
       <div class="col-sm-12 column" style=" margin:0 auto;">
-        <p>Copyright @  Zaiktam Team 2015</p>
+        <p>Copyright @  Zaiktam Team 2016</p>
       </div>
     </div>
   </div>

@@ -8,7 +8,7 @@
 <?php
 include dirname(__FILE__).'/shop-li-header.php'; 
 ?>
-</head></head>
+</head>
 <body>
 <?php
 include dirname(__FILE__).'/../header.php'; 
@@ -18,8 +18,8 @@ include dirname(__FILE__).'/../header.php';
     <div class="row clearfix">
       <div class="col-md-12 column">
         <ul class="breadcrumb">
-          <li> <a href="../index.html">首页</a> </li>
-          <li> <a href="../shop.html">商城</a> </li>
+          <li> <a href="/index.php">首页</a> </li>
+          <li> <a href="/shop.php">商城</a> </li>
              <li class="active">
             <h1>生活记录套装</h1>
           </li>
