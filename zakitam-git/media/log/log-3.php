@@ -53,9 +53,9 @@ include dirname(__FILE__).'/../../header.php';
         <div class="li-title" id="myModalLabel"> <p>相关产品</p></div>
     
       </div>
-      <div class="li-header-con">
-      
-		</div>
+      <?php
+include dirname(__FILE__).'/media-li.php'; 
+?>
         </div>
 	</div>
 </div>

@@ -73,7 +73,9 @@ include dirname(__FILE__).'/header.php';
     <li> <a href="shop/travel.php"> <img src="images/produt/travel/header.jpg"> </a> </li>
     <li> <a href="shop/life.php"> <img src="images/produt/life/header.jpg"> </a> </li>
     <li> <a href="shop/fish.php"> <img src="images/produt/fish/header.jpg"> </a></li>
-
+     <li> <a href="shop/swim.php"> <img src="images/produt/swim/header.jpg"> </a> </li>
+    <li> <a href="shop/professional.php"> <img src="images/produt/professional/header.jpg"> </a> </li>
+    <li> <a href="shop/sport.php"> <img src="images/produt/sport/header.jpg"> </a></li>
   </ul>
   
 </div>

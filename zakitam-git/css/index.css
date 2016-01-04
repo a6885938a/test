@@ -112,6 +112,7 @@ a.navbar-brand img {
 .lawer {
 	position: absolute;
 }
+.headerbg{ background:url(../images/header.png) no-repeat center #5fc4f8; height:30%}
 .tit-name {
 	text-align: left;
 	height: 28px;

@@ -43,12 +43,6 @@ include dirname(__FILE__).'/../header.php';
         </div>
         <div class="col-md-9 product-price-wrapper">
           <h3><span>旅行套装 - 运动相机玩家 zakitam 推荐|GoPro HERO4 BLACK</span></h3>
-          <table class="table">
-            <tr>
-              <td width="50" class="text-muted">价格</td>
-              <td><span class="price"><b class="rmb">¥</b><b class="num">3421.00</b class="rmb"><b>起</b></span></td>
-            </tr>
-          </table>
           <div class="form-group hidden-xs"> <a class="btn btn-primary" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10120540-11335991006.5.Zu3nCF&id=520156839543" target="_blank"> 去淘宝购买 </a> </div>
           <div class="form-group visible-xs navbar-fixed-bottom"> <a class="btn btn-primary btn-block" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w10120540-11335991006.5.Zu3nCF&id=520156839543" target="_blank"> 去淘宝购买 </a> </div>
         </div>

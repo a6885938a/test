@@ -1,9 +1,10 @@
 <div class="modal fade in" style=" display:block;opacity:0.8; background:#000; vertical-align:middle; font-size:4rem; text-align:center; color:#fff;">
   <p style=" padding-top:100px; margin-top:100px;"> UNDER CONSTRUCTION...</p>
 </div>
-<div class=" row column" style=" width:100%;overflow:hidden;"> <img alt="" style="width:100%; max-width:100%; overflow:hidden;" src="images/bike.jpg" /> </div>
+<div class="headerbg"></div>
 <!--标题结束-->
 <div class="">
+<!--
   <div class="layout import-collection visible-md visible-lg" style=" margin-top:20px;">
     <div class="tit-name">套餐精选</div>
     <div class="bd fd-clr" id="accordion">
@@ -192,9 +193,11 @@
       </ul>
     </div>
   </div>
+-->
   <div  class="product">
     <div class="container " style="margin-top:20px; ">
-      <div class="tit-name">产品分类</div>
+      <div class="tit-name">套餐精选</div>
+      <!--
       <div class="col-md-12 column">
         <div class="col-xs-6 col-sm-4 col-md-3 col-md-2 column"> <img src="images/g1.jpg"/> </div>
         <div class="col-xs-6 col-sm-4 col-md-3 col-md-2 column"> <img src="images/g2.jpg"/> </div>
@@ -202,6 +205,15 @@
         <div class="col-xs-6 col-sm-4 col-md-3 col-md-2  column"> <img src="images/g4.jpg"/> </div>
         <div class="col-xs-6 col-sm-4 col-md-3 col-md-2  column"> <img src="images/g5.jpg"/> </div>
         <div class="col-xs-6 col-sm-4 col-md-3 col-md-2  column"> <img src="images/g6.jpg"/> </div>
+      </div>
+      -->
+            <div class="col-md-12 column">
+        <div class="col-xs-6 col-md-4 column"> <img src="images/produt/travel/header.jpg"/> </div>
+        <div class="col-xs-6 col-md-4 column"> <img src="images/produt/life/header.jpg"/> </div>
+        <div class="col-xs-6 col-md-4 column"> <img src="images/produt/fish/header.jpg"/> </div>
+        <div class="col-xs-6 col-md-4 column"> <img src="images/produt/swim/header.jpg"/> </div>
+        <div class="col-xs-6 col-md-4 column"> <img src="images/produt/professional/header.jpg"/> </div>
+        <div class="col-xs-6 col-md-4 column"> <img src="images/produt/sport/header.jpg"/> </div>
       </div>
     </div>
   </div>

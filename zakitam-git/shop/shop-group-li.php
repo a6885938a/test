@@ -14,7 +14,17 @@
                   </a> 
                   <a href="fish.php">
                   <div class="panel-body"> 新手套装 </div>
-                  </a>  </div>
+                  </a>  
+                   <a href="swim.php">
+                  <div class="panel-body"> 嬉水套装 </div>
+                  </a> 
+                   <a href="professional.php">
+                  <div class="panel-body"> 专业套装 </div>
+                  </a> 
+                    <a href="sport.php">
+                  <div class="panel-body"> 运动套装 </div>
+                  </a> 
+                  </div>
               </div>
               
               <div class="cl" ></div>
