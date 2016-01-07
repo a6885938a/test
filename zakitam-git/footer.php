@@ -1,47 +1,40 @@
-  <div class="zt-f">
-    <div class="footer visible-md visible-lg">
-      <div class="footer-wrap">
-        <div class="col-sm-4 column" style="text-align:left;"> <a  href="/index.php" style="line-height:70px;"><img class="logo" src="/images/logo_w.png" height="38" style=" vertical-align:middle;" /></a> </div>
-        <div class="col-sm-4 column">
-          <ul style="line-height:70px;">
-            <li style="display:none;"><img src="/images/ico/weixin.png"/></li>
-            <li><a href="http://weibo.com/zakitamgopro" target="_blank"><img src="/images/ico/weibo.png"/></a></li>
-            <li><a href="http://i.youku.com/u/UMjMzNjcyOTY4" target="_blank"><img src="/images/ico/youku.png"/></a></li>
-            <li><a href="https://shop125086752.taobao.com/?spm=2013.1.1000126.2.aZZwrC" target="_blank"><img src="/images/ico/taobao.png"/></a></li>
-          </ul>
-        </div>
-        <div class="col-sm-4 column">
-          <p>Copyright @  Zaiktam Team 2016</p>
-        </div>
+<div class="zt-f">
+  <div class="footer visible-md visible-lg">
+    <div class="footer-wrap">
+      <div class="col-sm-4 column" style="text-align:left;"> <a  href="/index.php" style="line-height:70px;"><img class="logo" src="/images/logo_w.png" height="38" style=" vertical-align:middle;" /></a> </div>
+      <div class="col-sm-4 column">
+        <ul style="line-height:70px;">
+          <li style="display:none;"><img src="/images/ico/weixin.png"/></li>
+          <li><a href="http://weibo.com/zakitamgopro" target="_blank"><img src="/images/ico/weibo.png"/></a></li>
+          <li><a href="http://i.youku.com/u/UMjMzNjcyOTY4" target="_blank"><img src="/images/ico/youku.png"/></a></li>
+          <li><a href="https://shop125086752.taobao.com/?spm=2013.1.1000126.2.aZZwrC" target="_blank"><img src="/images/ico/taobao.png"/></a></li>
+        </ul>
       </div>
-    </div>
-    <div class="v-wrap visible-xs">
-      <div class="col-sm-12 column" style=" margin:0 auto;">
+      <div class="col-sm-4 column">
         <p>Copyright @  Zaiktam Team 2016</p>
       </div>
     </div>
   </div>
-  <!--回到顶部-->
-<div class="returntop">
-    <div style="" id="rocket-to-top">
-        <div style="opacity:0;display:block;" class="level-2"></div>
-        <div class="level-3"></div>
+  <div class="v-wrap visible-xs">
+    <div class="col-sm-12 column" style=" margin:0 auto;">
+      <p>Copyright @  Zaiktam Team 2016</p>
     </div>
-    </div>
-    <div id="rocket-wrap-lit" class="visible-xs">
-  <div id="rocket-lit"></div>
   </div>
- <script  src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
+</div>
+<!--回到顶部-->
+<div class="returntop">
+  <div style="" id="rocket-to-top">
+    <div style="opacity:0;display:block;" class="level-2"></div>
+    <div class="level-3"></div>
+  </div>
+</div>
+<div id="rocket-wrap-lit" class="visible-xs">
+  <div id="rocket-lit"></div>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> 
 <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
-<!--
-<script type="text/javascript" src="/js/helium.js"></script><!--css优化工具-->
-<script type="text/javascript"><!--css优化工具-->
-    window.addEventListener('load', function(){
-        helium.init();
-    }, false);
-</script>
-
 <script>
+//回到顶部
         $(function() {
             var e = $("#rocket-to-top"),
             t = $(document).scrollTop(),

@@ -4,7 +4,8 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>生活记录套装 - 运动相机玩家 zakitam 推荐|GoPro HERO+LCD</title><meta name="description" content="">
+<title>生活记录套装 - 运动相机玩家 zakitam 推荐|GoPro HERO+LCD</title>
+<meta name="description" content="">
 <?php
 include dirname(__FILE__).'/shop-li-header.php'; 
 ?>
@@ -20,7 +21,7 @@ include dirname(__FILE__).'/../header.php';
         <ul class="breadcrumb">
           <li> <a href="/index.php">首页</a> </li>
           <li> <a href="/shop.php">商城</a> </li>
-             <li class="active">
+          <li class="active">
             <h1>新手套装</h1>
           </li>
           <div class="qrcode  visible-md visible-lg">
@@ -48,7 +49,7 @@ include dirname(__FILE__).'/../header.php';
         </div>
       </div>
       <div class="row">
-                <?php
+        <?php
 include dirname(__FILE__).'/shop-group-li.php'; 
 ?>
         <div class="col-md-9 column">
@@ -60,22 +61,7 @@ include dirname(__FILE__).'/shop-group-li.php';
               <div class="supplyContent" >
                 <div id="myTab1Content" class="tab-content">
                   <div class="tab-pane fade in active" id="home">
-                    <p>
-                    <img align="absmiddle" src="../images/produt/fish/1.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/2.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/3.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/4.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/4-2.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/5.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/6.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/7.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/8.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/9.jpg">
-                      <img align="absmiddle"  src="../images/produt/fish/10.jpg">
-                    <img align="absmiddle"  src="../images/produt/fish/11.jpg">
-
-  
-                    </p>
+                    <p> <img data-original="../images/produt/fish/1.jpg"> <img data-original="../images/produt/fish/2.jpg"> <img data-original="../images/produt/fish/3.jpg"> <img data-original="../images/produt/fish/4.jpg"> <img data-original="../images/produt/fish/4-2.jpg"> <img data-original="../images/produt/fish/5.jpg"> <img data-original="../images/produt/fish/6.jpg"> <img data-original="../images/produt/fish/7.jpg"> <img data-original="../images/produt/fish/8.jpg"> <img data-original="../images/produt/fish/9.jpg"> <img data-original="../images/produt/fish/10.jpg"> <img data-original="../images/produt/fish/11.jpg"> </p>
                   </div>
                 </div>
                 <div class="cl" ></div>
@@ -85,7 +71,6 @@ include dirname(__FILE__).'/shop-group-li.php';
         </div>
       </div>
     </div>
-  
   </div>
 </div>
 <?php

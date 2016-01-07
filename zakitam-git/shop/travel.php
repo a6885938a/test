@@ -20,7 +20,7 @@ include dirname(__FILE__).'/../header.php';
         <ul class="breadcrumb">
           <li> <a href="/index.php">首页</a> </li>
           <li> <a href="/shop.php">商城</a> </li>
-             <li class="active">
+          <li class="active">
             <h1>旅行套装</h1>
           </li>
           <div class="qrcode  visible-md visible-lg">
@@ -48,7 +48,7 @@ include dirname(__FILE__).'/../header.php';
         </div>
       </div>
       <div class="row">
-                <?php
+        <?php
 include dirname(__FILE__).'/shop-group-li.php'; 
 ?>
         <div class="col-md-9 column">
@@ -60,23 +60,7 @@ include dirname(__FILE__).'/shop-group-li.php';
               <div class="supplyContent" >
                 <div id="myTab1Content" class="tab-content">
                   <div class="tab-pane fade in active" id="home">
-                    <p>
-                    <img align="absmiddle" src="../images/produt/travel/1.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/2.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/2-2.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/3.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/4.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/4-2.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/5.jpg">
-                    <img align="absmiddle" src="../images/produt/travel/6.jpg">
-                     <img align="absmiddle"  src="../images/produt/travel/6-2.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/7.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/8.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/9.jpg">
-                    <img align="absmiddle" src="../images/produt/travel/11.jpg">
-                     <img align="absmiddle" src="../images/produt/travel/12.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/13.jpg">
-                    </p>
+                    <p> <img data-original="../images/produt/travel/1.jpg"> <img data-original="../images/produt/travel/2.jpg"> <img data-original="../images/produt/travel/2-2.jpg"> <img data-original="../images/produt/travel/3.jpg"> <img data-original="../images/produt/travel/4.jpg"> <img data-original="../images/produt/travel/4-2.jpg"> <img data-original="../images/produt/travel/5.jpg"> <img data-original="../images/produt/travel/6.jpg"> <img data-original="../images/produt/travel/6-2.jpg"> <img data-original="../images/produt/travel/7.jpg"> <img data-original="../images/produt/travel/8.jpg"> <img data-original="../images/produt/travel/9.jpg"> <img data-original="../images/produt/travel/11.jpg"> <img data-original="../images/produt/travel/12.jpg"> <img data-original="../images/produt/travel/13.jpg"> </p>
                   </div>
                 </div>
                 <div class="cl" ></div>
@@ -86,10 +70,8 @@ include dirname(__FILE__).'/shop-group-li.php';
         </div>
       </div>
     </div>
-  
   </div>
 </div>
-
 <?php
 include dirname(__FILE__).'/../footer.php'; 
 ?>
