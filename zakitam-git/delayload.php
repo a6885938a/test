@@ -4,7 +4,8 @@
                 $("img").delayLoading({
                     defaultImg: "/images/loading.jpg",           // 预加载前显示的图片
                     errorImg: "",                        // 读取图片错误时替换图片(默认：与defaultImg一样)
-                    imgSrcAttr: "src",                  // 读取图片的src
+                    imgSrcAttr: "src",                  // 读取图片的src        imgSrcAttr: "src", 
+                    setImg: "originalSrc",   
                     setImg: "originalSrc",              //记录图片路径的属性(默认：originalSrc，把页面img的src属性值传给originalSrc属性)
                     beforehand: 0,                       // 预先提前多少像素加载图片(默认：0)
                     event: "scroll",                     // 触发加载图片事件(默认：scroll)

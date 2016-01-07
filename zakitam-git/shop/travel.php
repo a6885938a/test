@@ -68,13 +68,13 @@ include dirname(__FILE__).'/shop-group-li.php';
                     <img align="absmiddle"  src="../images/produt/travel/4.jpg">
                     <img align="absmiddle"  src="../images/produt/travel/4-2.jpg">
                     <img align="absmiddle"  src="../images/produt/travel/5.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/6.jpg">
+                    <img align="absmiddle" src="../images/produt/travel/6.jpg">
                      <img align="absmiddle"  src="../images/produt/travel/6-2.jpg">
                     <img align="absmiddle"  src="../images/produt/travel/7.jpg">
                     <img align="absmiddle"  src="../images/produt/travel/8.jpg">
                     <img align="absmiddle"  src="../images/produt/travel/9.jpg">
-                    <img align="absmiddle"  src="../images/produt/travel/11.jpg">
-                     <img align="absmiddle"  src="../images/produt/travel/12.jpg">
+                    <img align="absmiddle" src="../images/produt/travel/11.jpg">
+                     <img align="absmiddle" src="../images/produt/travel/12.jpg">
                     <img align="absmiddle"  src="../images/produt/travel/13.jpg">
                     </p>
                   </div>
