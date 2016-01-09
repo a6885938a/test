@@ -1,14 +1,10 @@
-<!DOCTYPE HTML>
-<head>
-<meta charset="utf-8">
+<?php
+include dirname(__FILE__).'/meta.php'; 
+?>
 <title>zaiktam</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content=""/>
 <meta name="author" content=""/>
-<title>zaiktam</title>
 <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
-
 <link href="css/index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>

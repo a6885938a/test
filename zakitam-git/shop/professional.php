@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+include dirname(__FILE__).'/../meta.php'; 
+?>
 <title>专业影视套装 - zakitam.com 运动相机玩家 | GoPro 国行相机</title>
 <meta name="description" content="">
 <?php

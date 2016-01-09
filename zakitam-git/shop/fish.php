@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+include dirname(__FILE__).'/../meta.php'; 
+?>
 <title>生活记录套装 - 运动相机玩家 zakitam 推荐|GoPro HERO+LCD</title>
 <meta name="description" content="">
 <?php

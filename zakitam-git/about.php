@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+include dirname(__FILE__).'/meta.php'; 
+?>
 <title>zaiktam</title>
 <meta name="description" content="">
 <meta name="author" content="">
@@ -20,7 +17,7 @@ include dirname(__FILE__).'/header.php';
    -->
   <div >
     <div class="p-header">
-      <video autoplay="autoplay" loop="loop" muted="muted" poster="/images/Splacer_banner.jpg" >
+      <video id="video1" autoplay="autoplay" loop="loop" muted="muted" poster="/images/Splacer_banner.jpg" >
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
@@ -28,10 +25,9 @@ include dirname(__FILE__).'/header.php';
       <div class="home-title">
         <div class="sp-home-big-head sp-bold">zakitam 工作室:佛山市禅城区建新路莺岗街621号火山滑板店</div>
         <div class="sp-home-big-head sp-bold"><span>zakitam studio:Volcano Skate Shop, Ying Gang Street, Jian Xin Road, Chan Cheng District, Foshan, China.</span></div>
-        <img alt="Video pause" height="40" id="main-video-pause" onclick="stopVideo('home-main-video'); toggleElemById('main-video-play'); toggleElemById('main-video-pause')" src="https://www.splacer.co/assets/video_pause-df5fc376f1d785f855f8c609ba05bef4.png" style="display: inline;">
-        <img alt="Video play" height="40" id="main-video-play" onclick="startVideo('home-main-video'); toggleElemById('main-video-pause'); toggleElemById('main-video-play')" src="https://www.splacer.co/assets/video_play-661abbfb3ff18aaf0afb456a6388b47d.png" style="display: none;">
+        <img alt="Video pause" height="40" id="main-video-pause"  src="images/pause.png" style="display: inline;">
+        <img alt="Video play" height="40" id="main-video-play"  src="images/play.png" style="display: none;">
         <h2><span class="sp-home-head-1 sp-pointer">微信号:zakitamm</span></h2>
-      
     </div>
   </div>
   <!-- Footer --> 
@@ -51,7 +47,19 @@ $(document).ready(function(){
 $(".navbar").toggleClass("navblue-on");
 });
 $(".footer").css("background","none");
-});
+
+var myVideo=document.getElementById("video1");
+$("#main-video-pause").click(function(){
+	$(this).hide();
+	$("#main-video-play").show();
+    myVideo.pause();
+	});
+$("#main-video-play").click(function(){
+	$(this).hide();
+	$("#main-video-pause").show();
+    myVideo.play();
+	});
+	});
 </script>
 </body>
 </html>
