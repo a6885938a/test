@@ -17,7 +17,7 @@ include dirname(__FILE__).'/header.php';
    -->
   <div >
     <div class="p-header">
-      <video id="video1" autoplay="autoplay" loop="loop" muted="muted" poster="/images/Splacer_banner.jpg" >
+      <video id="video1" loop="loop" muted="muted" poster="/images/Splacer_banner.jpg" >
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.webm" type="video/webm" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.mp4" type="video/mp4" />
         <source src="/images/Splacer_Dancer_VIDEO_1280x720.ogv" type="video/ogg" />
@@ -25,8 +25,8 @@ include dirname(__FILE__).'/header.php';
       <div class="home-title">
         <div class="sp-home-big-head sp-bold">zakitam 工作室:佛山市禅城区建新路莺岗街621号火山滑板店</div>
         <div class="sp-home-big-head sp-bold"><span>zakitam studio:Volcano Skate Shop, Ying Gang Street, Jian Xin Road, Chan Cheng District, Foshan, China.</span></div>
-        <img alt="Video pause" height="40" id="main-video-pause"  src="images/pause.png" style="display: inline;">
-        <img alt="Video play" height="40" id="main-video-play"  src="images/play.png" style="display: none;">
+        <img alt="Video pause" height="40" id="main-video-pause"  src="images/pause.png" style="display:none ;">
+        <img alt="Video play" height="40" id="main-video-play"  src="images/play.png" style="display:inline ;">
         <h2><span class="sp-home-head-1 sp-pointer">微信号:zakitamm</span></h2>
     </div>
   </div>
