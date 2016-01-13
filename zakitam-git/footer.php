@@ -31,7 +31,7 @@
 <div id="rocket-wrap-lit" class="visible-xs">
   <div id="rocket-lit"></div>
 </div>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script> 
 <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
 <script>
 //回到顶部

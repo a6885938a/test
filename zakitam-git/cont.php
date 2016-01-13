@@ -1,4 +1,4 @@
-<div class="modal fade in" style=" display:block;opacity:0.8; background:#000; vertical-align:middle; font-size:4rem; text-align:center; color:#fff;">
+<div class="modal fade in" style=" display:none;opacity:0.8; background:#000; vertical-align:middle; font-size:4rem; text-align:center; color:#fff;">
   <p style=" padding-top:100px; margin-top:100px;"> UNDER CONSTRUCTION...</p>
 </div>
 <div class="headerbg"></div>

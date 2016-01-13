@@ -102,57 +102,22 @@ include("header.php");
     <li><a href="media/origin/origin-16.php"> <img src="/images/media/origin/16.jpg"> </a></li>
     <li><a href="media/origin/origin-17.php"> <img src="/images/media/origin/17.jpg"> </a></li>
     <li><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a></li>
-    <li id="sj"> <li><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a></li></li>
+    <li id="sj"><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a> </li>
   </ul>
-  <div class="modal fade" style=" " id="modal-container-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="close-on"  data-dismiss="modal" aria-hidden="true">×</div>
-    <div class="modal-content" style="  display:block;margin-left:auto;margin-right:auto; width:100%; max-width:800px; ">
-      <div style=" width:100%; height:320px; margin-top:-15px;">
-        <iframe width="100%" height="100%" src="http://player.youku.com/embed/XMTM5MzQ2OTE0MA==" frameborder=0 allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="modal-content" style="  display:block;margin-left:auto;margin-right:auto; width:100%;  max-width:1080px; ">
-      <div class="modal-header-on " style=" height:38px; line-height:38px;"  >
-        <h4 class="modal-title" id="myModalLabel"> 相关产品 </h4>
-      </div>
-      <div class="modal-body" style=" width:100%;  margin-top:-15px;">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail"> <img src="http://imgs.windmsn.com/zakitam/uploads/151126/4-151126214ZXW.jpg" /> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
+   <?php
+include dirname(__FILE__).'/footer.php'; 
+?>
 <script src="js/skel.min.js"></script><!--背景滚动--> 
 <script src="js/modernizr.custom.js"></script><!--瀑布流--> 
 
 <script src="js/masonry.pkgd.min.js"></script> <!--瀑布流--> 
 
 
-
-<?php
-include("footer.php");
-?>
 <script src="js/imagesloaded.js"></script> <!--瀑布流--> 
 <script src="js/classie.js"></script> <!--瀑布流--> 
 <script src="js/AnimOnScroll.js"></script> <!--瀑布流--> 
+
 <script>
 			new AnimOnScroll( document.getElementById( 'grid' ), {
 				minDuration : 0.4,
@@ -161,14 +126,17 @@ include("footer.php");
 			} );
 		</script> 
 <script src="js/stickUp.min.js"></script> 
+
 <script type="text/javascript"> 
+/*
 $(window).load(function() { 
   $('img').each(function() {
     if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) { 
-      this.src = '/images/loading.jpg'; 
+      this.src = '/images/loading.jpg' ; 
       } 
    });
 });
+*/
 $(document).ready(function(){ 
 	$(".navbar-toggle").click(function(){
 $(".navbar").toggleClass("navblue-on");
@@ -210,5 +178,6 @@ $('#sj-on').click(function(){
         });
       });
     </script>
+ 
 </body>
 </html>
