@@ -19,7 +19,7 @@ var _hmt = _hmt || [];
         <li class="active"> <a href="/index.php">首页</a> </li>
         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">视频<strong class="caret"></strong></a>
           <ul class="dropdown-menu">
-            <li> <a href="/media.php#ld" >Gopo技巧</a> </li>
+            <li> <a href="/media.php#ld" >GoPro技巧</a> </li>
             <li> <a href="/media.php#nr">视频日志</a> </li>
             <li> <a href="/media.php#tj">原创视频</a> </li>
             <li> <a href="/media.php#sj">其他</a> </li>

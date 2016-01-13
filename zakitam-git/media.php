@@ -58,7 +58,7 @@ include("header.php");
 <div class="container navbar-wrapper" style=" ">
   <div  id="tabs-268565">
     <ul class="nav nav-tabs" style=" margin:0 auto; text-align:center; ">
-      <li class="menuItem active"> <a id="ld-on">Gopo技巧</a> </li>
+      <li class="menuItem active"> <a id="ld-on">GoPro技巧</a> </li>
       <li class="menuItem "> <a id="nr-on">视频日志</a> </li>
       <li class="menuItem "> <a id="tj-on">原创视频</a> </li>
       <li class="menuItem "> <a id="sj-on">其他</a> </li>
