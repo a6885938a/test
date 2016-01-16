@@ -69,7 +69,7 @@ include("header.php");
   <ul class="grid effect-6" id="grid">
   <!--gopro技巧-->
     <li id="ld"> <a href="media/skill/skill-1.php"> <img src="/images/media/skill/1.jpg"> </a> </li>
-    <li><a href="media/skill/skill-2.php"> <img src="images/media/skill/12.jpg"> </a> </li>
+    <li class="dn"><a href="media/skill/skill-2.php"> <img src="images/media/skill/12.jpg"> </a> </li>
     <li><a href="media/skill/skill-3.php"> <img src="images/media/skill/3.jpg"> </a> </li>
     <li><a href="media/skill/skill-4.php"> <img src="images/media/skill/4.jpg"> </a> </li>
     <li><a href="media/skill/skill-5.php"> <img src="images/media/skill/5.jpg"> </a> </li>
@@ -86,23 +86,23 @@ include("header.php");
       <!--原创视频-->
     <li id="tj"><a href="media/origin/origin-1.php"> <img src="/images/media/origin/1.jpg"> </a></li>
     <li><a href="media/origin/origin-2.php"> <img src="/images/media/origin/2.jpg"> </a></li>
-    <li><a href="media/origin/origin-3.php"> <img src="/images/media/origin/3.jpg"> </a></li>
-    <li><a href="media/origin/origin-4.php"> <img src="/images/media/origin/4.jpg"> </a></li>
-    <li><a href="media/origin/origin-5.php"> <img src="/images/media/origin/5.jpg"> </a></li>
-    <li><a href="media/origin/origin-6.php"> <img src="/images/media/origin/6.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-3.php"> <img src="/images/media/origin/3.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-4.php"> <img src="/images/media/origin/4.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-5.php"> <img src="/images/media/origin/5.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-6.php"> <img src="/images/media/origin/6.jpg"> </a></li>
     <li><a href="media/origin/origin-7.php"> <img src="/images/media/origin/7.jpg"> </a></li>
     <li><a href="media/origin/origin-8.php"> <img src="/images/media/origin/8.jpg"> </a></li>
     <li><a href="media/origin/origin-9.php"> <img src="/images/media/origin/9.jpg"> </a></li>
-    <li><a href="media/origin/origin-10.php"> <img src="/images/media/origin/10.jpg"> </a></li>
-    <li><a href="media/origin/origin-11.php"> <img src="/images/media/origin/11.jpg"> </a></li>
-    <li><a href="media/origin/origin-12.php"> <img src="/images/media/origin/12.jpg"> </a></li>
-    <li><a href="media/origin/origin-13.php"> <img src="/images/media/origin/13.jpg"> </a></li>
-    <li><a href="media/origin/origin-14.php"> <img src="/images/media/origin/14.jpg"> </a></li>
-    <li><a href="media/origin/origin-15.php"> <img src="/images/media/origin/15.jpg"> </a></li>
-    <li><a href="media/origin/origin-16.php"> <img src="/images/media/origin/16.jpg"> </a></li>
-    <li><a href="media/origin/origin-17.php"> <img src="/images/media/origin/17.jpg"> </a></li>
-    <li><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a></li>
-    <li id="sj"><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a> </li>
+    <li class="dn"><a href="media/origin/origin-10.php"> <img src="/images/media/origin/10.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-11.php"> <img src="/images/media/origin/11.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-12.php"> <img src="/images/media/origin/12.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-13.php"> <img src="/images/media/origin/13.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-14.php"> <img src="/images/media/origin/14.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-15.php"> <img src="/images/media/origin/15.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-16.php"> <img src="/images/media/origin/16.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-17.php"> <img src="/images/media/origin/17.jpg"> </a></li>
+    <li class="dn"><a href="media/origin/origin-18.php"> <img src="/images/media/origin/18.jpg"> </a></li>
+    <li id="sj"> </li>
   </ul>
 </div>
    <?php
